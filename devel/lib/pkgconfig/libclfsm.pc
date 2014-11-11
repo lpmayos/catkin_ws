@@ -1,0 +1,8 @@
+prefix=/home/upf/Desktop/catkin_ws/devel
+
+Name: libclfsm
+Description: Description of libclfsm
+Version: 1.0.0
+Cflags: -I/home/upf/Desktop/catkin_ws/src/libclfsm/include
+Libs: -L/home/upf/Desktop/catkin_ws/devel/lib -llibclfsm
+Requires: gusimplewhiteboard

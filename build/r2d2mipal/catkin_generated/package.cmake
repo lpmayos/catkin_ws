@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "r2d2mipal")
+set(r2d2mipal_MAINTAINER "vlad <vlad@todo.todo>")
+set(r2d2mipal_DEPRECATED "")
+set(r2d2mipal_VERSION "0.0.0")
+set(r2d2mipal_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(r2d2mipal_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(r2d2mipal_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/upf/Desktop/catkin_ws/install
+
+Name: r2d2mipal
+Description: Description of r2d2mipal
+Version: 0.0.0
+Cflags: -I/home/upf/Desktop/catkin_ws/install/include
+Libs: -L/home/upf/Desktop/catkin_ws/install/lib 
+Requires: 

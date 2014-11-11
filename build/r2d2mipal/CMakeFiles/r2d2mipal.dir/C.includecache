@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/upf/Desktop/catkin_ws/src/r2d2mipal/include/linux_bluetooth_bridge.h
+
+/home/upf/Desktop/catkin_ws/src/r2d2mipal/src/linux_bluetooth_bridge.c
+stdlib.h
+-
+unistd.h
+-
+bluetooth/bluetooth.h
+-
+bluetooth/rfcomm.h
+-
+bluetooth/hci.h
+-
+bluetooth/hci_lib.h
+-
+linux_bluetooth_bridge.h
+/home/upf/Desktop/catkin_ws/src/r2d2mipal/src/linux_bluetooth_bridge.h
+

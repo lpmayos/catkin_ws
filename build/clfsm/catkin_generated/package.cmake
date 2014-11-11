@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "clfsm")
+set(clfsm_MAINTAINER "Rene Hexel <r.hexel@griffith.edu.au>")
+set(clfsm_DEPRECATED "")
+set(clfsm_VERSION "1.0.0")
+set(clfsm_BUILD_DEPENDS "gusimplewhiteboard" "libclfsm")
+set(clfsm_RUN_DEPENDS "gusimplewhiteboard" "libclfsm")
+set(clfsm_BUILDTOOL_DEPENDS "catkin")

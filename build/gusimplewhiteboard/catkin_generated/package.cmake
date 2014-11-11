@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "gusimplewhiteboard")
+set(gusimplewhiteboard_MAINTAINER "Rene Hexel <r.hexel@griffith.edu.au>")
+set(gusimplewhiteboard_DEPRECATED "")
+set(gusimplewhiteboard_VERSION "1.0.4")
+set(gusimplewhiteboard_BUILD_DEPENDS )
+set(gusimplewhiteboard_RUN_DEPENDS )
+set(gusimplewhiteboard_BUILDTOOL_DEPENDS "catkin")
