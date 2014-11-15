@@ -1,0 +1,8 @@
+prefix=/home/upf/code/catkin_ws/install
+
+Name: RosPingPong
+Description: Description of RosPingPong
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/upf/code/catkin_ws/install/lib -lRosPingPong
+Requires: 

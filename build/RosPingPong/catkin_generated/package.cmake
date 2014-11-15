@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "RosPingPong")
+set(RosPingPong_MAINTAINER "upf <upf@todo.todo>")
+set(RosPingPong_DEPRECATED "")
+set(RosPingPong_VERSION "0.0.0")
+set(RosPingPong_BUILD_DEPENDS "clfsm" "libclfsm" "roscpp" "std_msgs")
+set(RosPingPong_RUN_DEPENDS "clfsm" "libclfsm" "roscpp" "std_msgs")
+set(RosPingPong_BUILDTOOL_DEPENDS "catkin")
