@@ -128,6 +128,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/upf/code/catkin_ws/build/gusimplewhiteboard/cmake_install.cmake")
   INCLUDE("/home/upf/code/catkin_ws/build/libclfsm/cmake_install.cmake")
   INCLUDE("/home/upf/code/catkin_ws/build/clfsm/cmake_install.cmake")
+  INCLUDE("/home/upf/code/catkin_ws/build/RosPingPong/cmake_install.cmake")
   INCLUDE("/home/upf/code/catkin_ws/build/r2d2mipal/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)

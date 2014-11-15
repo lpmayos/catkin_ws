@@ -280,6 +280,201 @@ clfsm/fast:
 .PHONY : clfsm/fast
 
 #=============================================================================
+# Target rules for targets named RosPingPong
+
+# Build rule for target.
+RosPingPong: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RosPingPong
+.PHONY : RosPingPong
+
+# fast build rule for target.
+RosPingPong/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/RosPingPong.dir/build.make RosPingPong/CMakeFiles/RosPingPong.dir/build
+.PHONY : RosPingPong/fast
+
+#=============================================================================
+# Target rules for targets named RosPingPong_State_END
+
+# Build rule for target.
+RosPingPong_State_END: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RosPingPong_State_END
+.PHONY : RosPingPong_State_END
+
+# fast build rule for target.
+RosPingPong_State_END/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/RosPingPong_State_END.dir/build.make RosPingPong/CMakeFiles/RosPingPong_State_END.dir/build
+.PHONY : RosPingPong_State_END/fast
+
+#=============================================================================
+# Target rules for targets named RosPingPong_State_Initial
+
+# Build rule for target.
+RosPingPong_State_Initial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RosPingPong_State_Initial
+.PHONY : RosPingPong_State_Initial
+
+# fast build rule for target.
+RosPingPong_State_Initial/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/RosPingPong_State_Initial.dir/build.make RosPingPong/CMakeFiles/RosPingPong_State_Initial.dir/build
+.PHONY : RosPingPong_State_Initial/fast
+
+#=============================================================================
+# Target rules for targets named RosPingPong_State_Publish
+
+# Build rule for target.
+RosPingPong_State_Publish: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RosPingPong_State_Publish
+.PHONY : RosPingPong_State_Publish
+
+# fast build rule for target.
+RosPingPong_State_Publish/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/RosPingPong_State_Publish.dir/build.make RosPingPong/CMakeFiles/RosPingPong_State_Publish.dir/build
+.PHONY : RosPingPong_State_Publish/fast
+
+#=============================================================================
+# Target rules for targets named RosPingPong_State_WAIT_AND_COUNT
+
+# Build rule for target.
+RosPingPong_State_WAIT_AND_COUNT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RosPingPong_State_WAIT_AND_COUNT
+.PHONY : RosPingPong_State_WAIT_AND_COUNT
+
+# fast build rule for target.
+RosPingPong_State_WAIT_AND_COUNT/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/RosPingPong_State_WAIT_AND_COUNT.dir/build.make RosPingPong/CMakeFiles/RosPingPong_State_WAIT_AND_COUNT.dir/build
+.PHONY : RosPingPong_State_WAIT_AND_COUNT/fast
+
+#=============================================================================
+# Target rules for targets named libRosPingPong
+
+# Build rule for target.
+libRosPingPong: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libRosPingPong
+.PHONY : libRosPingPong
+
+# fast build rule for target.
+libRosPingPong/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/libRosPingPong.dir/build.make RosPingPong/CMakeFiles/libRosPingPong.dir/build
+.PHONY : libRosPingPong/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_cpp
+
+# Build rule for target.
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make RosPingPong/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_lisp
+
+# Build rule for target.
+roscpp_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
+.PHONY : roscpp_generate_messages_lisp
+
+# fast build rule for target.
+roscpp_generate_messages_lisp/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make RosPingPong/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_py
+
+# Build rule for target.
+roscpp_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/roscpp_generate_messages_py.dir/build.make RosPingPong/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make RosPingPong/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make RosPingPong/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_py
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make RosPingPong/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make RosPingPong/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_lisp
+
+# Build rule for target.
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make RosPingPong/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f RosPingPong/CMakeFiles/std_msgs_generate_messages_py.dir/build.make RosPingPong/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named r2d2mipal
 
 # Build rule for target.
@@ -328,6 +523,21 @@ help:
 	@echo "... gusimplewhiteboard"
 	@echo "... libclfsm"
 	@echo "... clfsm"
+	@echo "... RosPingPong"
+	@echo "... RosPingPong_State_END"
+	@echo "... RosPingPong_State_Initial"
+	@echo "... RosPingPong_State_Publish"
+	@echo "... RosPingPong_State_WAIT_AND_COUNT"
+	@echo "... libRosPingPong"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_py"
 	@echo "... r2d2mipal"
 	@echo "... testDemo"
 .PHONY : help
