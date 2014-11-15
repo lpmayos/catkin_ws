@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/upf/Desktop/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/upf/code/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/upf/Desktop/catkin_ws/build
+CMAKE_BINARY_DIR = /home/upf/code/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/depend.make
@@ -50,18 +50,18 @@ include gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/progress.make
 include gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/flags.make
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/flags.make
-gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o: /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/gusimplewhiteboard.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/Desktop/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o: /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/gusimplewhiteboard.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o   -c /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/gusimplewhiteboard.c
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o   -c /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/gusimplewhiteboard.c
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.i"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/gusimplewhiteboard.c > CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.i
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/gusimplewhiteboard.c > CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.i
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.s"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/gusimplewhiteboard.c -o CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.s
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/gusimplewhiteboard.c -o CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.s
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o.requires:
 .PHONY : gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o.requires
@@ -73,18 +73,18 @@ gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o.
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o.provides.build: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/flags.make
-gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o: /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/gugenericwhiteboardobject.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/Desktop/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
+gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o: /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/gugenericwhiteboardobject.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o -c /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/gugenericwhiteboardobject.cpp
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o -c /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/gugenericwhiteboardobject.cpp
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.i"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/gugenericwhiteboardobject.cpp > CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.i
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/gugenericwhiteboardobject.cpp > CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.i
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.s"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/gugenericwhiteboardobject.cpp -o CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.s
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/gugenericwhiteboardobject.cpp -o CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.s
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o.requires:
 .PHONY : gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o.requires
@@ -96,18 +96,18 @@ gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobje
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o.provides.build: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/flags.make
-gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o: /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/guwhiteboardtypelist_c_typestrings_generated.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/Desktop/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
+gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o: /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/guwhiteboardtypelist_c_typestrings_generated.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o   -c /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/guwhiteboardtypelist_c_typestrings_generated.c
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o   -c /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/guwhiteboardtypelist_c_typestrings_generated.c
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.i"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/guwhiteboardtypelist_c_typestrings_generated.c > CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.i
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/guwhiteboardtypelist_c_typestrings_generated.c > CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.i
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.s"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/src/guwhiteboardtypelist_c_typestrings_generated.c -o CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.s
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/upf/code/catkin_ws/src/gusimplewhiteboard/src/guwhiteboardtypelist_c_typestrings_generated.c -o CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.s
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o.requires:
 .PHONY : gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o.requires
@@ -127,17 +127,17 @@ gusimplewhiteboard_OBJECTS = \
 # External object files for target gusimplewhiteboard
 gusimplewhiteboard_EXTERNAL_OBJECTS =
 
-/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o
-/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o
-/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o
-/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make
-/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so: /usr/lib/libdispatch.so
-/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so"
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gusimplewhiteboard.dir/link.txt --verbose=$(VERBOSE)
+/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o
+/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o
+/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o
+/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make
+/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so: /usr/lib/libdispatch.so
+/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library /home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so"
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gusimplewhiteboard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build: /home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so
+gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build: /home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so
 .PHONY : gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/requires: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o.requires
@@ -146,10 +146,10 @@ gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/requires: gusimplewhiteboar
 .PHONY : gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/requires
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/clean:
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && $(CMAKE_COMMAND) -P CMakeFiles/gusimplewhiteboard.dir/cmake_clean.cmake
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && $(CMAKE_COMMAND) -P CMakeFiles/gusimplewhiteboard.dir/cmake_clean.cmake
 .PHONY : gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/clean
 
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/depend:
-	cd /home/upf/Desktop/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/upf/Desktop/catkin_ws/src /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard /home/upf/Desktop/catkin_ws/build /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/upf/code/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/upf/code/catkin_ws/src /home/upf/code/catkin_ws/src/gusimplewhiteboard /home/upf/code/catkin_ws/build /home/upf/code/catkin_ws/build/gusimplewhiteboard /home/upf/code/catkin_ws/build/gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/depend
 

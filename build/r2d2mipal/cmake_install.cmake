@@ -1,8 +1,8 @@
-# Install script for directory: /home/upf/Desktop/catkin_ws/src/r2d2mipal
+# Install script for directory: /home/upf/code/catkin_ws/src/r2d2mipal
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/upf/Desktop/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/upf/code/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/upf/Desktop/catkin_ws/build/r2d2mipal/catkin_generated/installspace/r2d2mipal.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/upf/code/catkin_ws/build/r2d2mipal/catkin_generated/installspace/r2d2mipal.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/r2d2mipal/cmake" TYPE FILE FILES
-    "/home/upf/Desktop/catkin_ws/build/r2d2mipal/catkin_generated/installspace/r2d2mipalConfig.cmake"
-    "/home/upf/Desktop/catkin_ws/build/r2d2mipal/catkin_generated/installspace/r2d2mipalConfig-version.cmake"
+    "/home/upf/code/catkin_ws/build/r2d2mipal/catkin_generated/installspace/r2d2mipalConfig.cmake"
+    "/home/upf/code/catkin_ws/build/r2d2mipal/catkin_generated/installspace/r2d2mipalConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/r2d2mipal" TYPE FILE FILES "/home/upf/Desktop/catkin_ws/src/r2d2mipal/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/r2d2mipal" TYPE FILE FILES "/home/upf/code/catkin_ws/src/r2d2mipal/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/r2d2mipal" TYPE DIRECTORY FILES "/home/upf/Desktop/catkin_ws/src/r2d2mipal/include/r2d2mipal/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/r2d2mipal" TYPE DIRECTORY FILES "/home/upf/code/catkin_ws/src/r2d2mipal/include/r2d2mipal/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

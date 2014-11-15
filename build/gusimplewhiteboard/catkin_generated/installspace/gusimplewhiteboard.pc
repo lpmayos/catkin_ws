@@ -1,8 +1,8 @@
-prefix=/home/upf/Desktop/catkin_ws/install
+prefix=/home/upf/code/catkin_ws/install
 
 Name: gusimplewhiteboard
 Description: Description of gusimplewhiteboard
 Version: 1.0.4
-Cflags: -I/home/upf/Desktop/catkin_ws/install/include
-Libs: -L/home/upf/Desktop/catkin_ws/install/lib -lgusimplewhiteboard
+Cflags: -I/home/upf/code/catkin_ws/install/include
+Libs: -L/home/upf/code/catkin_ws/install/lib -lgusimplewhiteboard
 Requires: 

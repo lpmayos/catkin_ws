@@ -1,8 +1,8 @@
-# Install script for directory: /home/upf/Desktop/catkin_ws/src/clfsm
+# Install script for directory: /home/upf/code/catkin_ws/src/clfsm
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/upf/Desktop/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/upf/code/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/upf/Desktop/catkin_ws/build/clfsm/catkin_generated/installspace/clfsm.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/upf/code/catkin_ws/build/clfsm/catkin_generated/installspace/clfsm.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clfsm/cmake" TYPE FILE FILES
-    "/home/upf/Desktop/catkin_ws/build/clfsm/catkin_generated/installspace/clfsmConfig.cmake"
-    "/home/upf/Desktop/catkin_ws/build/clfsm/catkin_generated/installspace/clfsmConfig-version.cmake"
+    "/home/upf/code/catkin_ws/build/clfsm/catkin_generated/installspace/clfsmConfig.cmake"
+    "/home/upf/code/catkin_ws/build/clfsm/catkin_generated/installspace/clfsmConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clfsm" TYPE FILE FILES "/home/upf/Desktop/catkin_ws/src/clfsm/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/clfsm" TYPE FILE FILES "/home/upf/code/catkin_ws/src/clfsm/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -243,29 +243,29 @@ int main(void) {
 
     // Lab 1 Task 2 -----------------------------------------------------------
 
-    Lab1Task2 *l1t2 = new Lab1Task2();
-    l1t2->run();
-    delete l1t2;
+    // Lab1Task2 *l1t2 = new Lab1Task2();
+    // l1t2->run();
+    // delete l1t2;
 
     // ------------------------------------------------------------------------
 
     // Lab 1 Task 3 -----------------------------------------------------------
 
-    // int distance_input;
-    // std::cout << "Please enter the distance you want the robot to keep (an integer between 0 and 255)" << std::endl;
-    // std::cin >> distance_input;
-    // std::cout << std::endl;
+    int distance_input;
+    std::cout << "Please enter the distance you want the robot to keep (an integer between 0 and 255)" << std::endl;
+    std::cin >> distance_input;
+    std::cout << std::endl;
 
-    // Lab1Task3 *l1t3 = new Lab1Task3();
-    // std::thread t1(&Lab1Task3::thread1, l1t3, distance_input);
-    // std::thread t2(&Lab1Task3::thread2, l1t3);
+    Lab1Task3 *l1t3 = new Lab1Task3();
+    std::thread t1(&Lab1Task3::thread1, l1t3, distance_input);
+    std::thread t2(&Lab1Task3::thread2, l1t3);
 
-    // // Makes the main thread wait for the new thread to finish execution,
-    // // therefore blocks its own execution.
-    // t1.join();
-    // t2.join();
+    // Makes the main thread wait for the new thread to finish execution,
+    // therefore blocks its own execution.
+    t1.join();
+    t2.join();
 
-    // delete l1t3;
+    delete l1t3;
 
     // ------------------------------------------------------------------------
 

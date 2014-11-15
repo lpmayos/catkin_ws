@@ -16,8 +16,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/libclfsm.dir/src/clfsm_vector_factory.cc.o"
   "CMakeFiles/libclfsm.dir/src/clfsm_wb_vector_factory.cc.o"
   "CMakeFiles/libclfsm.dir/src/gu_util.cpp.o"
-  "/home/upf/Desktop/catkin_ws/devel/lib/libclfsm.pdb"
-  "/home/upf/Desktop/catkin_ws/devel/lib/libclfsm.so"
+  "/home/upf/code/catkin_ws/devel/lib/libclfsm.pdb"
+  "/home/upf/code/catkin_ws/devel/lib/libclfsm.so"
 )
 
 # Per-language clean rules from dependency scanning.

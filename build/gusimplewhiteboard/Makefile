@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/upf/Desktop/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/upf/code/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/upf/Desktop/catkin_ws/build
+CMAKE_BINARY_DIR = /home/upf/code/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/upf/Desktop/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/upf/Desktop/catkin_ws/build/CMakeFiles /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard/CMakeFiles/progress.marks
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/upf/Desktop/catkin_ws/build/CMakeFiles 0
+	cd /home/upf/code/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/upf/code/catkin_ws/build/CMakeFiles /home/upf/code/catkin_ws/build/gusimplewhiteboard/CMakeFiles/progress.marks
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/upf/code/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/clean
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/preinstall
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/preinstall
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/upf/Desktop/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/upf/code/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ _catkin_empty_exported_target: gusimplewhiteboard/CMakeFiles/_catkin_empty_expor
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/build.make gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/build.make gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/rule:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/rule
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/rule
 .PHONY : gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/rule
 
 # Convenience name for target.
@@ -174,7 +174,7 @@ gusimplewhiteboard: gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/rule
 
 # fast build rule for target.
 gusimplewhiteboard/fast:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build
 .PHONY : gusimplewhiteboard/fast
 
 src/gugenericwhiteboardobject.o: src/gugenericwhiteboardobject.cpp.o
@@ -182,7 +182,7 @@ src/gugenericwhiteboardobject.o: src/gugenericwhiteboardobject.cpp.o
 
 # target to build an object file
 src/gugenericwhiteboardobject.cpp.o:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o
 .PHONY : src/gugenericwhiteboardobject.cpp.o
 
 src/gugenericwhiteboardobject.i: src/gugenericwhiteboardobject.cpp.i
@@ -190,7 +190,7 @@ src/gugenericwhiteboardobject.i: src/gugenericwhiteboardobject.cpp.i
 
 # target to preprocess a source file
 src/gugenericwhiteboardobject.cpp.i:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.i
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.i
 .PHONY : src/gugenericwhiteboardobject.cpp.i
 
 src/gugenericwhiteboardobject.s: src/gugenericwhiteboardobject.cpp.s
@@ -198,7 +198,7 @@ src/gugenericwhiteboardobject.s: src/gugenericwhiteboardobject.cpp.s
 
 # target to generate assembly for a file
 src/gugenericwhiteboardobject.cpp.s:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.s
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.s
 .PHONY : src/gugenericwhiteboardobject.cpp.s
 
 src/gusimplewhiteboard.o: src/gusimplewhiteboard.c.o
@@ -206,7 +206,7 @@ src/gusimplewhiteboard.o: src/gusimplewhiteboard.c.o
 
 # target to build an object file
 src/gusimplewhiteboard.c.o:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o
 .PHONY : src/gusimplewhiteboard.c.o
 
 src/gusimplewhiteboard.i: src/gusimplewhiteboard.c.i
@@ -214,7 +214,7 @@ src/gusimplewhiteboard.i: src/gusimplewhiteboard.c.i
 
 # target to preprocess a source file
 src/gusimplewhiteboard.c.i:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.i
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.i
 .PHONY : src/gusimplewhiteboard.c.i
 
 src/gusimplewhiteboard.s: src/gusimplewhiteboard.c.s
@@ -222,7 +222,7 @@ src/gusimplewhiteboard.s: src/gusimplewhiteboard.c.s
 
 # target to generate assembly for a file
 src/gusimplewhiteboard.c.s:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.s
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.s
 .PHONY : src/gusimplewhiteboard.c.s
 
 src/guwhiteboardtypelist_c_typestrings_generated.o: src/guwhiteboardtypelist_c_typestrings_generated.c.o
@@ -230,7 +230,7 @@ src/guwhiteboardtypelist_c_typestrings_generated.o: src/guwhiteboardtypelist_c_t
 
 # target to build an object file
 src/guwhiteboardtypelist_c_typestrings_generated.c.o:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o
 .PHONY : src/guwhiteboardtypelist_c_typestrings_generated.c.o
 
 src/guwhiteboardtypelist_c_typestrings_generated.i: src/guwhiteboardtypelist_c_typestrings_generated.c.i
@@ -238,7 +238,7 @@ src/guwhiteboardtypelist_c_typestrings_generated.i: src/guwhiteboardtypelist_c_t
 
 # target to preprocess a source file
 src/guwhiteboardtypelist_c_typestrings_generated.c.i:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.i
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.i
 .PHONY : src/guwhiteboardtypelist_c_typestrings_generated.c.i
 
 src/guwhiteboardtypelist_c_typestrings_generated.s: src/guwhiteboardtypelist_c_typestrings_generated.c.s
@@ -246,7 +246,7 @@ src/guwhiteboardtypelist_c_typestrings_generated.s: src/guwhiteboardtypelist_c_t
 
 # target to generate assembly for a file
 src/guwhiteboardtypelist_c_typestrings_generated.c.s:
-	cd /home/upf/Desktop/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.s
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/build.make gusimplewhiteboard/CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.s
 .PHONY : src/guwhiteboardtypelist_c_typestrings_generated.c.s
 
 # Help Target
@@ -284,6 +284,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/upf/Desktop/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/upf/code/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

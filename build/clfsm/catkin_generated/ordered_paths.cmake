@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/include;/home/upf/Desktop/catkin_ws/src/libclfsm/include")
+set(ORDERED_PATHS "/home/upf/code/catkin_ws/src/gusimplewhiteboard/include;/home/upf/code/catkin_ws/src/libclfsm/include")

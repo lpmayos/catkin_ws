@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS = -fPIC -I/home/upf/Desktop/catkin_ws/src/r2d2mipal/include   
+C_FLAGS = -fPIC -I/home/upf/code/catkin_ws/src/r2d2mipal/include   
 
 C_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dr2d2mipal_EXPORTS
 
-CXX_FLAGS = -std=c++11 -fPIC -I/home/upf/Desktop/catkin_ws/src/r2d2mipal/include   
+CXX_FLAGS = -std=c++11 -fPIC -I/home/upf/code/catkin_ws/src/r2d2mipal/include   
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dr2d2mipal_EXPORTS
 

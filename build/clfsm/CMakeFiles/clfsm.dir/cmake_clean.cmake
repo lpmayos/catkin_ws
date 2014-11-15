@@ -2,8 +2,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/clfsm.dir/src/clfsm_cc.cc.o"
   "CMakeFiles/clfsm.dir/src/clfsm_machine.cc.o"
   "CMakeFiles/clfsm.dir/src/clfsm_main.cc.o"
-  "/home/upf/Desktop/catkin_ws/devel/lib/clfsm/clfsm.pdb"
-  "/home/upf/Desktop/catkin_ws/devel/lib/clfsm/clfsm"
+  "/home/upf/code/catkin_ws/devel/lib/clfsm/clfsm.pdb"
+  "/home/upf/code/catkin_ws/devel/lib/clfsm/clfsm"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/upf/Desktop/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/upf/code/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/upf/Desktop/catkin_ws/build
+CMAKE_BINARY_DIR = /home/upf/code/catkin_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -56,10 +56,10 @@ gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_e
 .PHONY : gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/upf/code/catkin_ws/build/gusimplewhiteboard && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/upf/Desktop/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/upf/Desktop/catkin_ws/src /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard /home/upf/Desktop/catkin_ws/build /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard /home/upf/Desktop/catkin_ws/build/gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/upf/code/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/upf/code/catkin_ws/src /home/upf/code/catkin_ws/src/gusimplewhiteboard /home/upf/code/catkin_ws/build /home/upf/code/catkin_ws/build/gusimplewhiteboard /home/upf/code/catkin_ws/build/gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gusimplewhiteboard/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

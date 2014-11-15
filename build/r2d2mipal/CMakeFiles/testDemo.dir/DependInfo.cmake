@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/upf/Desktop/catkin_ws/src/r2d2mipal/src/test.cpp" "/home/upf/Desktop/catkin_ws/build/r2d2mipal/CMakeFiles/testDemo.dir/src/test.cpp.o"
+  "/home/upf/code/catkin_ws/src/r2d2mipal/src/test.cpp" "/home/upf/code/catkin_ws/build/r2d2mipal/CMakeFiles/testDemo.dir/src/test.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,12 +15,12 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/upf/Desktop/catkin_ws/build/r2d2mipal/CMakeFiles/r2d2mipal.dir/DependInfo.cmake"
+  "/home/upf/code/catkin_ws/build/r2d2mipal/CMakeFiles/r2d2mipal.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/upf/Desktop/catkin_ws/src/r2d2mipal/include"
+  "/home/upf/code/catkin_ws/src/r2d2mipal/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

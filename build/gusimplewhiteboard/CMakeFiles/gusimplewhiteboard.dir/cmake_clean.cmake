@@ -2,8 +2,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/gusimplewhiteboard.dir/src/gusimplewhiteboard.c.o"
   "CMakeFiles/gusimplewhiteboard.dir/src/gugenericwhiteboardobject.cpp.o"
   "CMakeFiles/gusimplewhiteboard.dir/src/guwhiteboardtypelist_c_typestrings_generated.c.o"
-  "/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.pdb"
-  "/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so"
+  "/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.pdb"
+  "/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so"
 )
 
 # Per-language clean rules from dependency scanning.

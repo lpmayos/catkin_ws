@@ -1,8 +1,8 @@
-# Install script for directory: /home/upf/Desktop/catkin_ws/src/gusimplewhiteboard
+# Install script for directory: /home/upf/code/catkin_ws/src/gusimplewhiteboard
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/upf/Desktop/catkin_ws/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/upf/code/catkin_ws/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/upf/Desktop/catkin_ws/build/gusimplewhiteboard/catkin_generated/installspace/gusimplewhiteboard.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/upf/code/catkin_ws/build/gusimplewhiteboard/catkin_generated/installspace/gusimplewhiteboard.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gusimplewhiteboard/cmake" TYPE FILE FILES
-    "/home/upf/Desktop/catkin_ws/build/gusimplewhiteboard/catkin_generated/installspace/gusimplewhiteboardConfig.cmake"
-    "/home/upf/Desktop/catkin_ws/build/gusimplewhiteboard/catkin_generated/installspace/gusimplewhiteboardConfig-version.cmake"
+    "/home/upf/code/catkin_ws/build/gusimplewhiteboard/catkin_generated/installspace/gusimplewhiteboardConfig.cmake"
+    "/home/upf/code/catkin_ws/build/gusimplewhiteboard/catkin_generated/installspace/gusimplewhiteboardConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gusimplewhiteboard" TYPE FILE FILES "/home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gusimplewhiteboard" TYPE FILE FILES "/home/upf/code/catkin_ws/src/gusimplewhiteboard/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgusimplewhiteboard.so"
          RPATH "")
   ENDIF()
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/upf/Desktop/catkin_ws/devel/lib/libgusimplewhiteboard.so")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/upf/code/catkin_ws/devel/lib/libgusimplewhiteboard.so")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgusimplewhiteboard.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgusimplewhiteboard.so")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -64,6 +64,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gusimplewhiteboard" TYPE DIRECTORY FILES "/home/upf/Desktop/catkin_ws/src/gusimplewhiteboard/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gusimplewhiteboard" TYPE DIRECTORY FILES "/home/upf/code/catkin_ws/src/gusimplewhiteboard/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
