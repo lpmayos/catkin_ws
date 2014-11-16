@@ -1,0 +1,8 @@
+prefix=/home/upf/code/catkin_ws/devel
+
+Name: ros_webots_epuck_nxt_differential_robot
+Description: Description of ros_webots_epuck_nxt_differential_robot
+Version: 0.0.0
+Cflags: -I/home/upf/code/catkin_ws/devel/include
+Libs: -L/home/upf/code/catkin_ws/devel/lib 
+Requires: roscpp std_msgs message_runtime r2d2mipal

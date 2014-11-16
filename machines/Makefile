@@ -3,7 +3,7 @@
 #
 # A makefile for compiling clfsm state machines
 #
-MACHINES=RosPingPong RosBlindTurttleBot RosWallTurttleBot
+MACHINES=RosPingPong RosBlindTurttleBot RosWallTurttleBot motorTest
 
 CLFSM_CXX_ONLY=yes
 MKDIR=mkdir -p
