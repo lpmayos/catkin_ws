@@ -1,10 +1,10 @@
 //
-//State_BUTTON_ON.h
+//State_TURN_LEFT.h
 //
 //Automatically created through MiEditCLFSM -- do not change manually!
 //
-#ifndef __clfsm__motorTest_State_BUTTON_ON_h__
-#define __clfsm__motorTest_State_BUTTON_ON_h__
+#ifndef __clfsm__lab2task2a_State_TURN_LEFT_h__
+#define __clfsm__lab2task2a_State_TURN_LEFT_h__
 
 #include "CLState.h"
 #include "CLAction.h"
@@ -14,11 +14,11 @@ namespace FSM
 {
 	namespace CLM
 	{
-		namespace FSMmotorTest
+		namespace FSMlab2task2a
 		{
 			namespace State
 			{
-				class BUTTON_ON: public CLState
+				class TURN_LEFT: public CLState
 				{
 					class OnEntry: public CLAction
 					{
@@ -35,7 +35,7 @@ namespace FSM
 					class Transition_0: public CLTransition
 					{
 						public:
-						Transition_0(int toState = 3): CLTransition(toState) {}
+						Transition_0(int toState = 1): CLTransition(toState) {}
 
 						virtual bool check(CLMachine *, CLState *) const;
 					};
@@ -43,7 +43,7 @@ namespace FSM
 					class Transition_1: public CLTransition
 					{
 						public:
-						Transition_1(int toState = 2): CLTransition(toState) {}
+						Transition_1(int toState = 6): CLTransition(toState) {}
 
 						virtual bool check(CLMachine *, CLState *) const;
 					};
@@ -53,17 +53,17 @@ namespace FSM
 #pragma clang diagnostic ignored "-Wzero-length-array"
 				CLTransition *_transitions[2];
 				public:
-					BUTTON_ON(const char *name = "BUTTON_ON");
-					virtual ~BUTTON_ON();
+					TURN_LEFT(const char *name = "TURN_LEFT");
+					virtual ~TURN_LEFT();
 
 					virtual CLTransition * const *transitions() const { return _transitions; }
 					virtual int numberOfTransitions() const { return 2; }
 
-#					include "State_BUTTON_ON_Variables.h"
+#					include "State_TURN_LEFT_Variables.h"
 #pragma clang diagnostic pop
 				};
 			}
 		}
 	}
 }
-#endif // defined(__gufsm__motorTest_State_BUTTON_ON__)
+#endif // defined(__gufsm__lab2task2a_State_TURN_LEFT__)

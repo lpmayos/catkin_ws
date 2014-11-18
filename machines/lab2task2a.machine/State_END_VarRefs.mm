@@ -1,9 +1,9 @@
 //
-//State_BUTTON_ON_VarRefs.mm
+//State_END_VarRefs.mm
 //
 //Automatically created through MiEditCLFSM -- do not change manually!
 //
-BUTTON_ON *_s = static_cast<BUTTON_ON *>(_state);
+END *_s = static_cast<END *>(_state);
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunused-variable"

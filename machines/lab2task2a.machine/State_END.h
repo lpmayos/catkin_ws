@@ -1,10 +1,10 @@
 //
-//State_INITIAL.h
+//State_END.h
 //
 //Automatically created through MiEditCLFSM -- do not change manually!
 //
-#ifndef __clfsm__motorTest_State_INITIAL_h__
-#define __clfsm__motorTest_State_INITIAL_h__
+#ifndef __clfsm__lab2task2a_State_END_h__
+#define __clfsm__lab2task2a_State_END_h__
 
 #include "CLState.h"
 #include "CLAction.h"
@@ -14,11 +14,11 @@ namespace FSM
 {
 	namespace CLM
 	{
-		namespace FSMmotorTest
+		namespace FSMlab2task2a
 		{
 			namespace State
 			{
-				class INITIAL: public CLState
+				class END: public CLState
 				{
 					class OnEntry: public CLAction
 					{
@@ -32,30 +32,22 @@ namespace FSM
 					{
 						virtual void perform(CLMachine *, CLState *) const;
 					};
-					class Transition_0: public CLTransition
-					{
-						public:
-						Transition_0(int toState = 4): CLTransition(toState) {}
-
-						virtual bool check(CLMachine *, CLState *) const;
-					};
-
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wzero-length-array"
-				CLTransition *_transitions[1];
+				CLTransition *_transitions[0];
 				public:
-					INITIAL(const char *name = "INITIAL");
-					virtual ~INITIAL();
+					END(const char *name = "END");
+					virtual ~END();
 
 					virtual CLTransition * const *transitions() const { return _transitions; }
-					virtual int numberOfTransitions() const { return 1; }
+					virtual int numberOfTransitions() const { return 0; }
 
-#					include "State_INITIAL_Variables.h"
+#					include "State_END_Variables.h"
 #pragma clang diagnostic pop
 				};
 			}
 		}
 	}
 }
-#endif // defined(__gufsm__motorTest_State_INITIAL__)
+#endif // defined(__gufsm__lab2task2a_State_END__)
