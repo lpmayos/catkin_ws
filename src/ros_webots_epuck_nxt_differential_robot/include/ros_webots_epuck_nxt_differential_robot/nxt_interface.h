@@ -76,29 +76,30 @@
 #include "ros_webots_epuck_nxt_differential_robot/Rrobot.h"
 #include "ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h"
 
-class NXT_interface
-{
-         public:
-           ///< constructor
-        NXT_interface();
+class NXT_interface {
+public:
+    ///< constructor
+    NXT_interface();
 
-        std::string banner() { return std::string("(c) Vlad Estivill_Castro, demo subscriber R@D@-NXT ROS driver");}
+    std::string banner() { return std::string("(c) Vlad Estivill_Castro, demo subscriber R@D@-NXT ROS driver");}
 
-	void run(int argc, char **argv);
+    void run(int argc, char **argv);
 
-        /// call-back method robot
-void   robotCallback(const ros_webots_epuck_nxt_differential_robot::Rrobot::ConstPtr& msg);
+    /// call-back method robot
+    void robotCallback(const ros_webots_epuck_nxt_differential_robot::Rrobot::ConstPtr& msg);
 
-        /// call-back method button status/value
-	bool value_buttonCallback(
-             ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Request & req,
-             ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Response& res);
+    /// call-back method button status/value
+    bool value_buttonCallback(
+        ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Request & req,
+        ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Response& res);
 
-	private:
-	        r2d2::Brick* brick;
-		r2d2::NXT* nxt;
-		r2d2::Sensor* sensor_left; r2d2::Sensor* sensor_right;
-		bool status_sensor_left; bool status_sensor_right;
-
-		r2d2::Motor* motor_right; r2d2::Motor* motor_left;
+private:
+    r2d2::Brick* brick;
+    r2d2::NXT* nxt;
+    r2d2::Sensor* sensor_left;
+    r2d2::Sensor* sensor_right;
+    bool status_sensor_left;
+    bool status_sensor_right;
+    r2d2::Motor* motor_right;
+    r2d2::Motor* motor_left;
 };
