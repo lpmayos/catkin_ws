@@ -1,8 +1,8 @@
 //
-// RosPingPong_Variables.h
+//RosPingPong_Variables.h
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
-ros::NodeHandle*	n;	///< 
-int	count;	///< 
+ros::NodeHandle*	n;	///<
+int	count;	///<
 ros::Publisher	chatter_pub;	///<

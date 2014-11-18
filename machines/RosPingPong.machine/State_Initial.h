@@ -1,10 +1,10 @@
 //
-// State_Initial.h
+//State_Initial.h
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
-#ifndef clfsm_RosPingPong_State_Initial_h
-#define clfsm_RosPingPong_State_Initial_h
+#ifndef __clfsm__RosPingPong_State_Initial_h__
+#define __clfsm__RosPingPong_State_Initial_h__
 
 #include "CLState.h"
 #include "CLAction.h"
@@ -12,51 +12,50 @@
 
 namespace FSM
 {
-    namespace CLM
-    {
-      namespace FSMRosPingPong
-      {
-        namespace State
-        {
-            class Initial: public CLState
-            {
-                class OnEntry: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
+	namespace CLM
+	{
+		namespace FSMRosPingPong
+		{
+			namespace State
+			{
+				class Initial: public CLState
+				{
+					class OnEntry: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class OnExit: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class Internal: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class Transition_0: public CLTransition
+					{
+						public:
+						Transition_0(int toState = 1): CLTransition(toState) {}
 
-                class OnExit: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
+						virtual bool check(CLMachine *, CLState *) const;
+					};
 
-                class Internal: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
 
-                class Transition_0: public CLTransition
-                {
-                public:
-                    Transition_0(int toState = 1): CLTransition(toState) {}
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wzero-length-array"
+				CLTransition *_transitions[1];
+				public:
+					Initial(const char *name = "Initial");
+					virtual ~Initial();
 
-                    virtual bool check(CLMachine *, CLState *) const;
-                };
+					virtual CLTransition * const *transitions() const { return _transitions; }
+					virtual int numberOfTransitions() const { return 1; }
 
-                CLTransition *_transitions[1];
-
-                public:
-                    Initial(const char *name = "Initial");
-                    virtual ~Initial();
-
-                    virtual CLTransition * const *transitions() const { return _transitions; }
-                    virtual int numberOfTransitions() const { return 1; }
-
-#                   include "State_Initial_Variables.h"
-            };
-        }
-      }
-    }
+#					include "State_Initial_Variables.h"
+#pragma clang diagnostic pop
+				};
+			}
+		}
+	}
 }
-
-#endif
+#endif // defined(__gufsm__RosPingPong_State_Initial__)

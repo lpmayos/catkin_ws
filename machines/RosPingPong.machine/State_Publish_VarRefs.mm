@@ -1,13 +1,13 @@
 //
-// State_Publish_VarRefs.mm
+//State_Publish_VarRefs.mm
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
+Publish *_s = static_cast<Publish *>(_state);
+
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunused-variable"
 #pragma clang diagnostic ignored "-Wshadow"
-
-Publish *_s = static_cast<Publish *>(_state);
 
 
 #pragma clang diagnostic pop

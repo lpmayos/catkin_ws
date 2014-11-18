@@ -1,7 +1,7 @@
 //
-// RosPingPong.mm
+//RosPingPong.mm
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
 #include "RosPingPong_Includes.h"
 #include "RosPingPong.h"
@@ -13,7 +13,6 @@
 
 using namespace FSM;
 using namespace CLM;
-
 extern "C"
 {
 	RosPingPong *CLM_Create_RosPingPong(int mid, const char *name)
@@ -24,10 +23,10 @@ extern "C"
 
 RosPingPong::RosPingPong(int mid, const char *name): CLMachine(mid, name)
 {
-	_states[0] = new FSMRosPingPong::State::Initial;
-	_states[1] = new FSMRosPingPong::State::Publish;
-	_states[2] = new FSMRosPingPong::State::WAIT_AND_COUNT;
-	_states[3] = new FSMRosPingPong::State::END;
+	_states[0]  = new FSMRosPingPong::State:: Initial;
+	_states[1]  = new FSMRosPingPong::State:: Publish;
+	_states[2]  = new FSMRosPingPong::State:: WAIT_AND_COUNT;
+	_states[3]  = new FSMRosPingPong::State:: END;
 
 	setInitialState(_states[0]);            // set initial state
 }
