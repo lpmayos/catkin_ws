@@ -72,7 +72,6 @@ add_message_files(
 #   Message2.msg
 Rmotor.msg
 Rbutton.msg
-Rsonar.msg
 Rencoder.msg
 Rrobot.msg
 )
@@ -83,7 +82,6 @@ add_service_files(
 #   Service1.srv
 #   Service2.srv
    RbuttonStatus.srv
-   RsonarStatus.srv
 )
 
 ## Generate actions in the 'action' folder

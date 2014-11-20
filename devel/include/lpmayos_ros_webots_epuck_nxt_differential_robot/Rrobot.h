@@ -53,7 +53,6 @@
 #include <lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor.h>
 #include <lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton.h>
 #include <lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton.h>
-#include <lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar.h>
 
 namespace lpmayos_ros_webots_epuck_nxt_differential_robot
 {
@@ -67,16 +66,14 @@ struct Rrobot_
     , leftMotor()
     , rightMotor()
     , leftButtonSwitch()
-    , rightButtonSwitch()
-    , sonarSwitch()  {
+    , rightButtonSwitch()  {
     }
   Rrobot_(const ContainerAllocator& _alloc)
     : Rrobot(_alloc)
     , leftMotor(_alloc)
     , rightMotor(_alloc)
     , leftButtonSwitch(_alloc)
-    , rightButtonSwitch(_alloc)
-    , sonarSwitch(_alloc)  {
+    , rightButtonSwitch(_alloc)  {
     }
 
 
@@ -95,9 +92,6 @@ struct Rrobot_
 
    typedef  ::lpmayos_ros_webots_epuck_nxt_differential_robot::Rbutton_<ContainerAllocator>  _rightButtonSwitch_type;
   _rightButtonSwitch_type rightButtonSwitch;
-
-   typedef  ::lpmayos_ros_webots_epuck_nxt_differential_robot::Rsonar_<ContainerAllocator>  _sonarSwitch_type;
-  _sonarSwitch_type sonarSwitch;
 
 
 
@@ -176,12 +170,12 @@ struct MD5Sum< ::lpmayos_ros_webots_epuck_nxt_differential_robot::Rrobot_<Contai
 {
   static const char* value()
   {
-    return "e68c02680c65c2559ba1f596201d8590";
+    return "8b886383709d99b19c9aec3796abbb5d";
   }
 
   static const char* value(const ::lpmayos_ros_webots_epuck_nxt_differential_robot::Rrobot_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xe68c02680c65c255ULL;
-  static const uint64_t static_value2 = 0x9ba1f596201d8590ULL;
+  static const uint64_t static_value1 = 0x8b886383709d99b1ULL;
+  static const uint64_t static_value2 = 0x9c9aec3796abbb5dULL;
 };
 
 template<class ContainerAllocator>
@@ -205,7 +199,6 @@ lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor leftMotor\n\
 lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor rightMotor\n\
 lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton leftButtonSwitch\n\
 lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton rightButtonSwitch\n\
-lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar sonarSwitch\n\
 \n\
 ================================================================================\n\
 MSG: std_msgs/Header\n\
@@ -234,11 +227,6 @@ uint32 power\n\
 MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton\n\
 Header Rbutton\n\
 bool on\n\
-\n\
-================================================================================\n\
-MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar\n\
-Header Rsonar\n\
-bool on\n\
 ";
   }
 
@@ -262,7 +250,6 @@ namespace serialization
       stream.next(m.rightMotor);
       stream.next(m.leftButtonSwitch);
       stream.next(m.rightButtonSwitch);
-      stream.next(m.sonarSwitch);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER;
@@ -296,9 +283,6 @@ struct Printer< ::lpmayos_ros_webots_epuck_nxt_differential_robot::Rrobot_<Conta
     s << indent << "rightButtonSwitch: ";
     s << std::endl;
     Printer< ::lpmayos_ros_webots_epuck_nxt_differential_robot::Rbutton_<ContainerAllocator> >::stream(s, indent + "  ", v.rightButtonSwitch);
-    s << indent << "sonarSwitch: ";
-    s << std::endl;
-    Printer< ::lpmayos_ros_webots_epuck_nxt_differential_robot::Rsonar_<ContainerAllocator> >::stream(s, indent + "  ", v.sonarSwitch);
   }
 };
 

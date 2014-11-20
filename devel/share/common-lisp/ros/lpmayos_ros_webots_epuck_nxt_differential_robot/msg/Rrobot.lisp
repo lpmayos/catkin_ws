@@ -31,12 +31,7 @@
     :reader rightButtonSwitch
     :initarg :rightButtonSwitch
     :type lpmayos_ros_webots_epuck_nxt_differential_robot-msg:Rbutton
-    :initform (cl:make-instance 'lpmayos_ros_webots_epuck_nxt_differential_robot-msg:Rbutton))
-   (sonarSwitch
-    :reader sonarSwitch
-    :initarg :sonarSwitch
-    :type lpmayos_ros_webots_epuck_nxt_differential_robot-msg:Rsonar
-    :initform (cl:make-instance 'lpmayos_ros_webots_epuck_nxt_differential_robot-msg:Rsonar)))
+    :initform (cl:make-instance 'lpmayos_ros_webots_epuck_nxt_differential_robot-msg:Rbutton)))
 )
 
 (cl:defclass Rrobot (<Rrobot>)
@@ -71,11 +66,6 @@
 (cl:defmethod rightButtonSwitch-val ((m <Rrobot>))
   (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader lpmayos_ros_webots_epuck_nxt_differential_robot-msg:rightButtonSwitch-val is deprecated.  Use lpmayos_ros_webots_epuck_nxt_differential_robot-msg:rightButtonSwitch instead.")
   (rightButtonSwitch m))
-
-(cl:ensure-generic-function 'sonarSwitch-val :lambda-list '(m))
-(cl:defmethod sonarSwitch-val ((m <Rrobot>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader lpmayos_ros_webots_epuck_nxt_differential_robot-msg:sonarSwitch-val is deprecated.  Use lpmayos_ros_webots_epuck_nxt_differential_robot-msg:sonarSwitch instead.")
-  (sonarSwitch m))
 (cl:defmethod roslisp-msg-protocol:serialize ((msg <Rrobot>) ostream)
   "Serializes a message object of type '<Rrobot>"
   (roslisp-msg-protocol:serialize (cl:slot-value msg 'Rrobot) ostream)
@@ -83,7 +73,6 @@
   (roslisp-msg-protocol:serialize (cl:slot-value msg 'rightMotor) ostream)
   (roslisp-msg-protocol:serialize (cl:slot-value msg 'leftButtonSwitch) ostream)
   (roslisp-msg-protocol:serialize (cl:slot-value msg 'rightButtonSwitch) ostream)
-  (roslisp-msg-protocol:serialize (cl:slot-value msg 'sonarSwitch) ostream)
 )
 (cl:defmethod roslisp-msg-protocol:deserialize ((msg <Rrobot>) istream)
   "Deserializes a message object of type '<Rrobot>"
@@ -92,7 +81,6 @@
   (roslisp-msg-protocol:deserialize (cl:slot-value msg 'rightMotor) istream)
   (roslisp-msg-protocol:deserialize (cl:slot-value msg 'leftButtonSwitch) istream)
   (roslisp-msg-protocol:deserialize (cl:slot-value msg 'rightButtonSwitch) istream)
-  (roslisp-msg-protocol:deserialize (cl:slot-value msg 'sonarSwitch) istream)
   msg
 )
 (cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<Rrobot>)))
@@ -103,16 +91,16 @@
   "lpmayos_ros_webots_epuck_nxt_differential_robot/Rrobot")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<Rrobot>)))
   "Returns md5sum for a message object of type '<Rrobot>"
-  "e68c02680c65c2559ba1f596201d8590")
+  "8b886383709d99b19c9aec3796abbb5d")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'Rrobot)))
   "Returns md5sum for a message object of type 'Rrobot"
-  "e68c02680c65c2559ba1f596201d8590")
+  "8b886383709d99b19c9aec3796abbb5d")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<Rrobot>)))
   "Returns full string definition for message of type '<Rrobot>"
-  (cl:format cl:nil "Header Rrobot~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor leftMotor~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor rightMotor~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton leftButtonSwitch~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton rightButtonSwitch~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar sonarSwitch~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor~%Header Rmotor~%uint32 power~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton~%Header Rbutton~%bool on~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar~%Header Rsonar~%bool on~%~%~%"))
+  (cl:format cl:nil "Header Rrobot~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor leftMotor~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor rightMotor~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton leftButtonSwitch~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton rightButtonSwitch~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor~%Header Rmotor~%uint32 power~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton~%Header Rbutton~%bool on~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'Rrobot)))
   "Returns full string definition for message of type 'Rrobot"
-  (cl:format cl:nil "Header Rrobot~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor leftMotor~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor rightMotor~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton leftButtonSwitch~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton rightButtonSwitch~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar sonarSwitch~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor~%Header Rmotor~%uint32 power~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton~%Header Rbutton~%bool on~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar~%Header Rsonar~%bool on~%~%~%"))
+  (cl:format cl:nil "Header Rrobot~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor leftMotor~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor rightMotor~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton leftButtonSwitch~%lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton rightButtonSwitch~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor~%Header Rmotor~%uint32 power~%~%================================================================================~%MSG: lpmayos_ros_webots_epuck_nxt_differential_robot/Rbutton~%Header Rbutton~%bool on~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <Rrobot>))
   (cl:+ 0
      (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'Rrobot))
@@ -120,7 +108,6 @@
      (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'rightMotor))
      (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'leftButtonSwitch))
      (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'rightButtonSwitch))
-     (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'sonarSwitch))
 ))
 (cl:defmethod roslisp-msg-protocol:ros-message-to-list ((msg <Rrobot>))
   "Converts a ROS message object to a list"
@@ -130,5 +117,4 @@
     (cl:cons ':rightMotor (rightMotor msg))
     (cl:cons ':leftButtonSwitch (leftButtonSwitch msg))
     (cl:cons ':rightButtonSwitch (rightButtonSwitch msg))
-    (cl:cons ':sonarSwitch (sonarSwitch msg))
 ))

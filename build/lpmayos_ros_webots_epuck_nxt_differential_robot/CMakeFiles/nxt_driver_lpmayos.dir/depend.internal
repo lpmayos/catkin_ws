@@ -8,10 +8,6 @@ lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.di
  /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/RbuttonStatusResponse.h
  /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor.h
  /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/Rrobot.h
- /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar.h
- /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/RsonarStatus.h
- /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/RsonarStatusRequest.h
- /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/RsonarStatusResponse.h
  /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/include/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_interface.h
  /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver.cpp
  /home/upf/code/catkin_ws/src/r2d2mipal/include/comm.h
@@ -83,10 +79,6 @@ lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.di
  /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/RbuttonStatusResponse.h
  /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/Rmotor.h
  /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/Rrobot.h
- /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/Rsonar.h
- /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/RsonarStatus.h
- /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/RsonarStatusRequest.h
- /home/upf/code/catkin_ws/devel/include/lpmayos_ros_webots_epuck_nxt_differential_robot/RsonarStatusResponse.h
  /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/include/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_interface.h
  /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_interface.cpp
  /home/upf/code/catkin_ws/src/r2d2mipal/include/comm.h

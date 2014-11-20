@@ -220,34 +220,6 @@ _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rrobot/fas
 .PHONY : _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rrobot/fast
 
 # Convenience name for target.
-ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/rule:
-	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/rule
-.PHONY : ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/rule
-
-# Convenience name for target.
-_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar: ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/rule
-.PHONY : _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar
-
-# fast build rule for target.
-_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar/fast:
-	cd /home/upf/code/catkin_ws/build && $(MAKE) -f ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/build.make ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/build
-.PHONY : _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar/fast
-
-# Convenience name for target.
-ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/rule:
-	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/rule
-.PHONY : ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/rule
-
-# Convenience name for target.
-_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus: ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/rule
-.PHONY : _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus
-
-# fast build rule for target.
-_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus/fast:
-	cd /home/upf/code/catkin_ws/build && $(MAKE) -f ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/build.make ros_webots_epuck_nxt_differential_robot/CMakeFiles/_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/build
-.PHONY : _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus/fast
-
-# Convenience name for target.
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/rule:
 	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/rule
 .PHONY : ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/rule
@@ -418,8 +390,6 @@ help:
 	@echo "... _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rencoder"
 	@echo "... _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rmotor"
 	@echo "... _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rrobot"
-	@echo "... _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar"
-	@echo "... _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"

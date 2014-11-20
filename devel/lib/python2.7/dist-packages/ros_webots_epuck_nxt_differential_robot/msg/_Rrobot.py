@@ -8,7 +8,7 @@ import ros_webots_epuck_nxt_differential_robot.msg
 import std_msgs.msg
 
 class Rrobot(genpy.Message):
-  _md5sum = "e68c02680c65c2559ba1f596201d8590"
+  _md5sum = "8b886383709d99b19c9aec3796abbb5d"
   _type = "ros_webots_epuck_nxt_differential_robot/Rrobot"
   _has_header = False #flag to mark the presence of a Header object
   _full_text = """Header Rrobot
@@ -16,7 +16,6 @@ ros_webots_epuck_nxt_differential_robot/Rmotor leftMotor
 ros_webots_epuck_nxt_differential_robot/Rmotor rightMotor
 ros_webots_epuck_nxt_differential_robot/Rbutton leftButtonSwitch
 ros_webots_epuck_nxt_differential_robot/Rbutton rightButtonSwitch
-ros_webots_epuck_nxt_differential_robot/Rsonar sonarSwitch
 
 ================================================================================
 MSG: std_msgs/Header
@@ -46,14 +45,9 @@ MSG: ros_webots_epuck_nxt_differential_robot/Rbutton
 Header Rbutton
 bool on
 
-================================================================================
-MSG: ros_webots_epuck_nxt_differential_robot/Rsonar
-Header Rsonar
-bool on
-
 """
-  __slots__ = ['Rrobot','leftMotor','rightMotor','leftButtonSwitch','rightButtonSwitch','sonarSwitch']
-  _slot_types = ['std_msgs/Header','ros_webots_epuck_nxt_differential_robot/Rmotor','ros_webots_epuck_nxt_differential_robot/Rmotor','ros_webots_epuck_nxt_differential_robot/Rbutton','ros_webots_epuck_nxt_differential_robot/Rbutton','ros_webots_epuck_nxt_differential_robot/Rsonar']
+  __slots__ = ['Rrobot','leftMotor','rightMotor','leftButtonSwitch','rightButtonSwitch']
+  _slot_types = ['std_msgs/Header','ros_webots_epuck_nxt_differential_robot/Rmotor','ros_webots_epuck_nxt_differential_robot/Rmotor','ros_webots_epuck_nxt_differential_robot/Rbutton','ros_webots_epuck_nxt_differential_robot/Rbutton']
 
   def __init__(self, *args, **kwds):
     """
@@ -63,7 +57,7 @@ bool on
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       Rrobot,leftMotor,rightMotor,leftButtonSwitch,rightButtonSwitch,sonarSwitch
+       Rrobot,leftMotor,rightMotor,leftButtonSwitch,rightButtonSwitch
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -82,15 +76,12 @@ bool on
         self.leftButtonSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rbutton()
       if self.rightButtonSwitch is None:
         self.rightButtonSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rbutton()
-      if self.sonarSwitch is None:
-        self.sonarSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rsonar()
     else:
       self.Rrobot = std_msgs.msg.Header()
       self.leftMotor = ros_webots_epuck_nxt_differential_robot.msg.Rmotor()
       self.rightMotor = ros_webots_epuck_nxt_differential_robot.msg.Rmotor()
       self.leftButtonSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rbutton()
       self.rightButtonSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rbutton()
-      self.sonarSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rsonar()
 
   def _get_types(self):
     """
@@ -159,18 +150,7 @@ bool on
         buff.write(struct.pack('<I%sB'%length, length, *_x))
       else:
         buff.write(struct.pack('<I%ss'%length, length, _x))
-      _x = self
-      buff.write(_struct_B3I.pack(_x.rightButtonSwitch.on, _x.sonarSwitch.Rsonar.seq, _x.sonarSwitch.Rsonar.stamp.secs, _x.sonarSwitch.Rsonar.stamp.nsecs))
-      _x = self.sonarSwitch.Rsonar.frame_id
-      length = len(_x)
-      if python3 or type(_x) == unicode:
-        _x = _x.encode('utf-8')
-        length = len(_x)
-      if python3:
-        buff.write(struct.pack('<I%sB'%length, length, *_x))
-      else:
-        buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_struct_B.pack(self.sonarSwitch.on))
+      buff.write(_struct_B.pack(self.rightButtonSwitch.on))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(_x))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(_x))))
 
@@ -190,8 +170,6 @@ bool on
         self.leftButtonSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rbutton()
       if self.rightButtonSwitch is None:
         self.rightButtonSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rbutton()
-      if self.sonarSwitch is None:
-        self.sonarSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rsonar()
       end = 0
       _x = self
       start = end
@@ -259,24 +237,10 @@ bool on
         self.rightButtonSwitch.Rbutton.frame_id = str[start:end].decode('utf-8')
       else:
         self.rightButtonSwitch.Rbutton.frame_id = str[start:end]
-      _x = self
-      start = end
-      end += 13
-      (_x.rightButtonSwitch.on, _x.sonarSwitch.Rsonar.seq, _x.sonarSwitch.Rsonar.stamp.secs, _x.sonarSwitch.Rsonar.stamp.nsecs,) = _struct_B3I.unpack(str[start:end])
-      self.rightButtonSwitch.on = bool(self.rightButtonSwitch.on)
-      start = end
-      end += 4
-      (length,) = _struct_I.unpack(str[start:end])
-      start = end
-      end += length
-      if python3:
-        self.sonarSwitch.Rsonar.frame_id = str[start:end].decode('utf-8')
-      else:
-        self.sonarSwitch.Rsonar.frame_id = str[start:end]
       start = end
       end += 1
-      (self.sonarSwitch.on,) = _struct_B.unpack(str[start:end])
-      self.sonarSwitch.on = bool(self.sonarSwitch.on)
+      (self.rightButtonSwitch.on,) = _struct_B.unpack(str[start:end])
+      self.rightButtonSwitch.on = bool(self.rightButtonSwitch.on)
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e) #most likely buffer underfill
@@ -344,18 +308,7 @@ bool on
         buff.write(struct.pack('<I%sB'%length, length, *_x))
       else:
         buff.write(struct.pack('<I%ss'%length, length, _x))
-      _x = self
-      buff.write(_struct_B3I.pack(_x.rightButtonSwitch.on, _x.sonarSwitch.Rsonar.seq, _x.sonarSwitch.Rsonar.stamp.secs, _x.sonarSwitch.Rsonar.stamp.nsecs))
-      _x = self.sonarSwitch.Rsonar.frame_id
-      length = len(_x)
-      if python3 or type(_x) == unicode:
-        _x = _x.encode('utf-8')
-        length = len(_x)
-      if python3:
-        buff.write(struct.pack('<I%sB'%length, length, *_x))
-      else:
-        buff.write(struct.pack('<I%ss'%length, length, _x))
-      buff.write(_struct_B.pack(self.sonarSwitch.on))
+      buff.write(_struct_B.pack(self.rightButtonSwitch.on))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(_x))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(_x))))
 
@@ -376,8 +329,6 @@ bool on
         self.leftButtonSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rbutton()
       if self.rightButtonSwitch is None:
         self.rightButtonSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rbutton()
-      if self.sonarSwitch is None:
-        self.sonarSwitch = ros_webots_epuck_nxt_differential_robot.msg.Rsonar()
       end = 0
       _x = self
       start = end
@@ -445,24 +396,10 @@ bool on
         self.rightButtonSwitch.Rbutton.frame_id = str[start:end].decode('utf-8')
       else:
         self.rightButtonSwitch.Rbutton.frame_id = str[start:end]
-      _x = self
-      start = end
-      end += 13
-      (_x.rightButtonSwitch.on, _x.sonarSwitch.Rsonar.seq, _x.sonarSwitch.Rsonar.stamp.secs, _x.sonarSwitch.Rsonar.stamp.nsecs,) = _struct_B3I.unpack(str[start:end])
-      self.rightButtonSwitch.on = bool(self.rightButtonSwitch.on)
-      start = end
-      end += 4
-      (length,) = _struct_I.unpack(str[start:end])
-      start = end
-      end += length
-      if python3:
-        self.sonarSwitch.Rsonar.frame_id = str[start:end].decode('utf-8')
-      else:
-        self.sonarSwitch.Rsonar.frame_id = str[start:end]
       start = end
       end += 1
-      (self.sonarSwitch.on,) = _struct_B.unpack(str[start:end])
-      self.sonarSwitch.on = bool(self.sonarSwitch.on)
+      (self.rightButtonSwitch.on,) = _struct_B.unpack(str[start:end])
+      self.rightButtonSwitch.on = bool(self.rightButtonSwitch.on)
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e) #most likely buffer underfill

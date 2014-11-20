@@ -47,10 +47,8 @@ include ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_
 
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rmotor.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h
-ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rsonar.h
-ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rbutton.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h
-ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rbutton.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h
 
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rmotor.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
@@ -66,19 +64,18 @@ ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differen
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.msg
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from ros_webots_epuck_nxt_differential_robot/Rrobot.msg"
 	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rsonar.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rsonar.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.msg
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rsonar.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rsonar.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg
+/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from ros_webots_epuck_nxt_differential_robot/Rsonar.msg"
-	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot -e /opt/ros/indigo/share/gencpp/cmake/..
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from ros_webots_epuck_nxt_differential_robot/Rencoder.msg"
+	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rbutton.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rbutton.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg
@@ -88,37 +85,19 @@ ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differen
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from ros_webots_epuck_nxt_differential_robot/Rbutton.msg"
 	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from ros_webots_epuck_nxt_differential_robot/Rencoder.msg"
-	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot -e /opt/ros/indigo/share/gencpp/cmake/..
-
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.srv
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from ros_webots_epuck_nxt_differential_robot/RsonarStatus.srv"
-	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.srv -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot -e /opt/ros/indigo/share/gencpp/cmake/..
-
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.srv
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from ros_webots_epuck_nxt_differential_robot/RbuttonStatus.srv"
 	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.srv -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot -e /opt/ros/indigo/share/gencpp/cmake/..
 
 ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp
 ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rmotor.h
 ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h
-ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rsonar.h
-ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rbutton.h
 ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h
-ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h
+ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rbutton.h
 ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h
 ros_webots_epuck_nxt_differential_robot_generate_messages_cpp: ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_cpp.dir/build.make
 .PHONY : ros_webots_epuck_nxt_differential_robot_generate_messages_cpp

@@ -36,17 +36,13 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lpmayos_ros_webots_epuck_nxt_differential_robot/msg" TYPE FILE FILES
     "/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg"
     "/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg"
-    "/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/msg/Rsonar.msg"
     "/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg"
     "/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lpmayos_ros_webots_epuck_nxt_differential_robot/srv" TYPE FILE FILES
-    "/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.srv"
-    "/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.srv"
-    )
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lpmayos_ros_webots_epuck_nxt_differential_robot/srv" TYPE FILE FILES "/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.srv")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

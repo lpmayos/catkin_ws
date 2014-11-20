@@ -13,6 +13,4 @@
     (:file "_package_Rrobot" :depends-on ("_package"))
     (:file "Rencoder" :depends-on ("_package_Rencoder"))
     (:file "_package_Rencoder" :depends-on ("_package"))
-    (:file "Rsonar" :depends-on ("_package_Rsonar"))
-    (:file "_package_Rsonar" :depends-on ("_package"))
   ))
