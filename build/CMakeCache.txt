@@ -360,6 +360,12 @@ libclfsm_LIB_DEPENDS:STATIC=general;gusimplewhiteboard;general;/usr/lib/libdispa
 //Value Computed by CMake
 libclfsm_SOURCE_DIR:STATIC=/home/upf/code/catkin_ws/src/libclfsm
 
+//Value Computed by CMake
+lpmayos_ros_webots_epuck_nxt_differential_robot_BINARY_DIR:STATIC=/home/upf/code/catkin_ws/build/lpmayos_ros_webots_epuck_nxt_differential_robot
+
+//Value Computed by CMake
+lpmayos_ros_webots_epuck_nxt_differential_robot_SOURCE_DIR:STATIC=/home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot
+
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
 
@@ -519,7 +525,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=9
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

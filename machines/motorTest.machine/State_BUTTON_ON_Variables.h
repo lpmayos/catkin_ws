@@ -1,6 +1,5 @@
 //
-//State_BUTTON_ON_Variables.h
+// State_BUTTON_ON_Variables.h
 //
-//Automatically created through MiEditCLFSM -- do not change manually!
+// Automatically created through MiCASE -- do not change manually!
 //
-
