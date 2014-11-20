@@ -1,10 +1,10 @@
 //
-// State_MOTORS_BACK.h
+//State_MOTORS_BACK.h
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
-#ifndef clfsm_lab2task2_State_MOTORS_BACK_h
-#define clfsm_lab2task2_State_MOTORS_BACK_h
+#ifndef __clfsm__lab2task2_State_MOTORS_BACK_h__
+#define __clfsm__lab2task2_State_MOTORS_BACK_h__
 
 #include "CLState.h"
 #include "CLAction.h"
@@ -12,51 +12,50 @@
 
 namespace FSM
 {
-    namespace CLM
-    {
-      namespace FSMlab2task2
-      {
-        namespace State
-        {
-            class MOTORS_BACK: public CLState
-            {
-                class OnEntry: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
+	namespace CLM
+	{
+		namespace FSMlab2task2
+		{
+			namespace State
+			{
+				class MOTORS_BACK: public CLState
+				{
+					class OnEntry: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class OnExit: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class Internal: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class Transition_0: public CLTransition
+					{
+						public:
+						Transition_0(int toState = 6): CLTransition(toState) {}
 
-                class OnExit: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
+						virtual bool check(CLMachine *, CLState *) const;
+					};
 
-                class Internal: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
 
-                class Transition_0: public CLTransition
-                {
-                public:
-                    Transition_0(int toState = 6): CLTransition(toState) {}
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wzero-length-array"
+				CLTransition *_transitions[1];
+				public:
+					MOTORS_BACK(const char *name = "MOTORS_BACK");
+					virtual ~MOTORS_BACK();
 
-                    virtual bool check(CLMachine *, CLState *) const;
-                };
+					virtual CLTransition * const *transitions() const { return _transitions; }
+					virtual int numberOfTransitions() const { return 1; }
 
-                CLTransition *_transitions[1];
-
-                public:
-                    MOTORS_BACK(const char *name = "MOTORS_BACK");
-                    virtual ~MOTORS_BACK();
-
-                    virtual CLTransition * const *transitions() const { return _transitions; }
-                    virtual int numberOfTransitions() const { return 1; }
-
-#                   include "State_MOTORS_BACK_Variables.h"
-            };
-        }
-      }
-    }
+#					include "State_MOTORS_BACK_Variables.h"
+#pragma clang diagnostic pop
+				};
+			}
+		}
+	}
 }
-
-#endif
+#endif // defined(__gufsm__lab2task2_State_MOTORS_BACK__)

@@ -1,7 +1,7 @@
 //
-// lab2task2.mm
+//lab2task2.mm
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
 #include "lab2task2_Includes.h"
 #include "lab2task2.h"
@@ -16,7 +16,6 @@
 
 using namespace FSM;
 using namespace CLM;
-
 extern "C"
 {
 	lab2task2 *CLM_Create_lab2task2(int mid, const char *name)
@@ -27,13 +26,13 @@ extern "C"
 
 lab2task2::lab2task2(int mid, const char *name): CLMachine(mid, name)
 {
-	_states[0] = new FSMlab2task2::State::INITIAL;
-	_states[1] = new FSMlab2task2::State::MOTOR_ON;
-	_states[2] = new FSMlab2task2::State::END;
-	_states[3] = new FSMlab2task2::State::TEST;
-	_states[4] = new FSMlab2task2::State::BUTTON_ON;
-	_states[5] = new FSMlab2task2::State::MOTORS_BACK;
-	_states[6] = new FSMlab2task2::State::SPIN;
+	_states[0]  = new FSMlab2task2::State:: INITIAL;
+	_states[1]  = new FSMlab2task2::State:: MOTOR_ON;
+	_states[2]  = new FSMlab2task2::State:: END;
+	_states[3]  = new FSMlab2task2::State:: TEST;
+	_states[4]  = new FSMlab2task2::State:: BUTTON_ON;
+	_states[5]  = new FSMlab2task2::State:: MOTORS_BACK;
+	_states[6]  = new FSMlab2task2::State:: SPIN;
 
 	setInitialState(_states[0]);            // set initial state
 }

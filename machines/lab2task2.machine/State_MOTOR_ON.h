@@ -1,10 +1,10 @@
 //
-// State_MOTOR_ON.h
+//State_MOTOR_ON.h
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
-#ifndef clfsm_lab2task2_State_MOTOR_ON_h
-#define clfsm_lab2task2_State_MOTOR_ON_h
+#ifndef __clfsm__lab2task2_State_MOTOR_ON_h__
+#define __clfsm__lab2task2_State_MOTOR_ON_h__
 
 #include "CLState.h"
 #include "CLAction.h"
@@ -12,59 +12,58 @@
 
 namespace FSM
 {
-    namespace CLM
-    {
-      namespace FSMlab2task2
-      {
-        namespace State
-        {
-            class MOTOR_ON: public CLState
-            {
-                class OnEntry: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
+	namespace CLM
+	{
+		namespace FSMlab2task2
+		{
+			namespace State
+			{
+				class MOTOR_ON: public CLState
+				{
+					class OnEntry: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class OnExit: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class Internal: public CLAction
+					{
+						virtual void perform(CLMachine *, CLState *) const;
+					};
+					class Transition_0: public CLTransition
+					{
+						public:
+						Transition_0(int toState = 2): CLTransition(toState) {}
 
-                class OnExit: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
+						virtual bool check(CLMachine *, CLState *) const;
+					};
 
-                class Internal: public CLAction
-                {
-                    virtual void perform(CLMachine *, CLState *) const;
-                };
+					class Transition_1: public CLTransition
+					{
+						public:
+						Transition_1(int toState = 3): CLTransition(toState) {}
 
-                class Transition_0: public CLTransition
-                {
-                public:
-                    Transition_0(int toState = 2): CLTransition(toState) {}
+						virtual bool check(CLMachine *, CLState *) const;
+					};
 
-                    virtual bool check(CLMachine *, CLState *) const;
-                };
 
-                class Transition_1: public CLTransition
-                {
-                public:
-                    Transition_1(int toState = 3): CLTransition(toState) {}
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wzero-length-array"
+				CLTransition *_transitions[2];
+				public:
+					MOTOR_ON(const char *name = "MOTOR_ON");
+					virtual ~MOTOR_ON();
 
-                    virtual bool check(CLMachine *, CLState *) const;
-                };
+					virtual CLTransition * const *transitions() const { return _transitions; }
+					virtual int numberOfTransitions() const { return 2; }
 
-                CLTransition *_transitions[2];
-
-                public:
-                    MOTOR_ON(const char *name = "MOTOR_ON");
-                    virtual ~MOTOR_ON();
-
-                    virtual CLTransition * const *transitions() const { return _transitions; }
-                    virtual int numberOfTransitions() const { return 2; }
-
-#                   include "State_MOTOR_ON_Variables.h"
-            };
-        }
-      }
-    }
+#					include "State_MOTOR_ON_Variables.h"
+#pragma clang diagnostic pop
+				};
+			}
+		}
+	}
 }
-
-#endif
+#endif // defined(__gufsm__lab2task2_State_MOTOR_ON__)

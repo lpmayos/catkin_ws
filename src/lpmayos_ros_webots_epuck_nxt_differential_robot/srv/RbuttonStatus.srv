@@ -1,3 +1,5 @@
 ---
 bool left_pressed
 bool right_pressed
+float sonar
+float light

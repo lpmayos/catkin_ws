@@ -29,6 +29,8 @@ private:
     r2d2::NXT* nxt;
     r2d2::Sensor* sensor_left;
     r2d2::Sensor* sensor_right;
+    r2d2::Sensor* sensor_sonar;
+    r2d2::Sensor* sensor_light;
     bool status_sensor_left;
     bool status_sensor_right;
     r2d2::Motor* motor_right;
