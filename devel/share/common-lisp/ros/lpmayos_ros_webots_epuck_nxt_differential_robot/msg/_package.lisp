@@ -9,5 +9,7 @@
    "RROBOT"
    "<RENCODER>"
    "RENCODER"
+   "<RSONAR>"
+   "RSONAR"
   ))
 

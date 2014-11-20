@@ -75,30 +75,42 @@
 #include "ros_webots_epuck_nxt_differential_robot/Rbutton.h"
 #include "ros_webots_epuck_nxt_differential_robot/Rrobot.h"
 #include "ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h"
+#include "ros_webots_epuck_nxt_differential_robot/Rsonar.h"
+#include "ros_webots_epuck_nxt_differential_robot/RsonarStatus.h"
 
-class NXT_interface
-{
-         public:
-           ///< constructor
-        NXT_interface();
 
-        std::string banner() { return std::string("(c) Vlad Estivill_Castro, demo subscriber R@D@-NXT ROS driver");}
+class NXT_interface {
+public:
+    ///< constructor
+    NXT_interface();
 
-	void run(int argc, char **argv);
+    std::string banner() { return std::string("(c) Vlad Estivill_Castro, demo subscriber R@D@-NXT ROS driver");}
 
-        /// call-back method robot
-void   robotCallback(const ros_webots_epuck_nxt_differential_robot::Rrobot::ConstPtr& msg);
+    void run(int argc, char **argv);
 
-        /// call-back method button status/value
-	bool value_buttonCallback(
-             ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Request & req,
-             ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Response& res);
+    /// call-back method robot
+    void robotCallback(const ros_webots_epuck_nxt_differential_robot::Rrobot::ConstPtr& msg);
 
-	private:
-	        r2d2::Brick* brick;
-		r2d2::NXT* nxt;
-		r2d2::Sensor* sensor_left; r2d2::Sensor* sensor_right;
-		bool status_sensor_left; bool status_sensor_right;
+    /// call-back method button status/value
+    bool value_buttonCallback(
+        ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Request & req,
+        ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Response& res);
 
-		r2d2::Motor* motor_right; r2d2::Motor* motor_left;
+    /// call-back method sonar status/value
+    bool value_sonarCallback(
+        ros_webots_epuck_nxt_differential_robot::RsonarStatus::Request & req,
+        ros_webots_epuck_nxt_differential_robot::RsonarStatus::Response& res);
+
+
+private:
+    r2d2::Brick* brick;
+    r2d2::NXT* nxt;
+    r2d2::Sensor* sensor_left;
+    r2d2::Sensor* sensor_right;
+    r2d2::Sensor* sensor_sonar;
+    bool status_sensor_left;
+    bool status_sensor_right;
+    bool status_sensor_sonar;
+    r2d2::Motor* motor_right;
+    r2d2::Motor* motor_left;
 };

@@ -47,8 +47,10 @@ include ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_
 
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.lisp
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.lisp
-ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.lisp
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.lisp
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.lisp
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.lisp
 
 /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
@@ -63,16 +65,17 @@ ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differen
 /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg
 /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg
 /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.lisp: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from ros_webots_epuck_nxt_differential_robot/Rrobot.msg"
 	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg
 
-/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
-/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg
-/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.msg
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.lisp: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from ros_webots_epuck_nxt_differential_robot/Rencoder.msg"
-	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from ros_webots_epuck_nxt_differential_robot/Rsonar.msg"
+	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg
 
 /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
 /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg
@@ -81,17 +84,32 @@ ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differen
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from ros_webots_epuck_nxt_differential_robot/Rbutton.msg"
 	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg
 
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from ros_webots_epuck_nxt_differential_robot/Rencoder.msg"
+	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg
+
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
+/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from ros_webots_epuck_nxt_differential_robot/RsonarStatus.srv"
+	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.srv -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv
+
 /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.lisp: /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py
 /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.lisp: /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.srv
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Lisp code from ros_webots_epuck_nxt_differential_robot/RbuttonStatus.srv"
 	cd /home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.srv -Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p ros_webots_epuck_nxt_differential_robot -o /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv
 
 ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp
 ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.lisp
 ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.lisp
-ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp
+ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rsonar.lisp
 ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.lisp
+ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp
+ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.lisp
 ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: /home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.lisp
 ros_webots_epuck_nxt_differential_robot_generate_messages_lisp: ros_webots_epuck_nxt_differential_robot/CMakeFiles/ros_webots_epuck_nxt_differential_robot_generate_messages_lisp.dir/build.make
 .PHONY : ros_webots_epuck_nxt_differential_robot_generate_messages_lisp

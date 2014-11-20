@@ -49,28 +49,28 @@ include lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lp
 # Include the compile flags for this target's objects.
 include lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/flags.make
 
-lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/flags.make
-lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o: /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver_lpmayos.cpp
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/flags.make
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/upf/code/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o"
-	cd /home/upf/code/catkin_ws/build/lpmayos_ros_webots_epuck_nxt_differential_robot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o -c /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver_lpmayos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o"
+	cd /home/upf/code/catkin_ws/build/lpmayos_ros_webots_epuck_nxt_differential_robot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o -c /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver.cpp
 
-lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.i"
-	cd /home/upf/code/catkin_ws/build/lpmayos_ros_webots_epuck_nxt_differential_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver_lpmayos.cpp > CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.i
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.i"
+	cd /home/upf/code/catkin_ws/build/lpmayos_ros_webots_epuck_nxt_differential_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver.cpp > CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.i
 
-lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.s"
-	cd /home/upf/code/catkin_ws/build/lpmayos_ros_webots_epuck_nxt_differential_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver_lpmayos.cpp -o CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.s
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.s"
+	cd /home/upf/code/catkin_ws/build/lpmayos_ros_webots_epuck_nxt_differential_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_driver.cpp -o CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.s
 
-lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o.requires:
-.PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o.requires
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o.requires:
+.PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o.requires
 
-lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o.provides: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o.requires
-	$(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o.provides.build
-.PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o.provides
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o.provides: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o.requires
+	$(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o.provides.build
+.PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o.provides
 
-lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o.provides.build: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o.provides.build: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o
 
 lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_interface.cpp.o: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/flags.make
 lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/src/lpmayos_ros_webots_epuck_nxt_differential_robot/src/nxt_interface.cpp
@@ -97,13 +97,13 @@ lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.di
 
 # Object files for target nxt_driver_lpmayos
 nxt_driver_lpmayos_OBJECTS = \
-"CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o" \
+"CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o" \
 "CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_interface.cpp.o"
 
 # External object files for target nxt_driver_lpmayos
 nxt_driver_lpmayos_EXTERNAL_OBJECTS =
 
-/home/upf/code/catkin_ws/devel/lib/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_driver_lpmayos: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o
+/home/upf/code/catkin_ws/devel/lib/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_driver_lpmayos: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o
 /home/upf/code/catkin_ws/devel/lib/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_driver_lpmayos: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_interface.cpp.o
 /home/upf/code/catkin_ws/devel/lib/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_driver_lpmayos: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make
 /home/upf/code/catkin_ws/devel/lib/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_driver_lpmayos: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
@@ -134,7 +134,7 @@ nxt_driver_lpmayos_EXTERNAL_OBJECTS =
 lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build: /home/upf/code/catkin_ws/devel/lib/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_driver_lpmayos
 .PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build
 
-lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/requires: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o.requires
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/requires: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o.requires
 lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/requires: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_interface.cpp.o.requires
 .PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/requires
 

@@ -7,6 +7,10 @@ ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatusResponse.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rmotor.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rsonar.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatusRequest.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatusResponse.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/src/r2d2mipal/include/comm.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/src/r2d2mipal/include/motors.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_driver.cpp.o: /home/upf/code/catkin_ws/src/r2d2mipal/include/r2d2_base.h
@@ -78,6 +82,10 @@ ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interf
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatusResponse.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rmotor.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rsonar.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatusRequest.h
+ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatusResponse.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/src/r2d2mipal/include/comm.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/src/r2d2mipal/include/motors.h
 ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver.dir/src/nxt_interface.cpp.o: /home/upf/code/catkin_ws/src/r2d2mipal/include/r2d2_base.h

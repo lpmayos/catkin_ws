@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o"
+  "CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o"
   "CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_interface.cpp.o"
   "/home/upf/code/catkin_ws/devel/lib/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_driver_lpmayos.pdb"
   "/home/upf/code/catkin_ws/devel/lib/lpmayos_ros_webots_epuck_nxt_differential_robot/nxt_driver_lpmayos"

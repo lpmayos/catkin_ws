@@ -220,6 +220,34 @@ _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rr
 .PHONY : _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rrobot/fast
 
 # Convenience name for target.
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/rule:
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/rule
+.PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/rule
+
+# Convenience name for target.
+_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/rule
+.PHONY : _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar
+
+# fast build rule for target.
+_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar/fast:
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar.dir/build
+.PHONY : _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar/fast
+
+# Convenience name for target.
+lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/rule:
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/rule
+.PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/rule
+
+# Convenience name for target.
+_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus: lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/rule
+.PHONY : _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus
+
+# fast build rule for target.
+_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus/fast:
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/_lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus.dir/build
+.PHONY : _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus/fast
+
+# Convenience name for target.
 lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/lpmayos_ros_webots_epuck_nxt_differential_robot_gencpp.dir/rule:
 	cd /home/upf/code/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/lpmayos_ros_webots_epuck_nxt_differential_robot_gencpp.dir/rule
 .PHONY : lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/lpmayos_ros_webots_epuck_nxt_differential_robot_gencpp.dir/rule
@@ -331,29 +359,29 @@ nxt_driver_lpmayos/fast:
 	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build
 .PHONY : nxt_driver_lpmayos/fast
 
-src/nxt_driver_lpmayos.o: src/nxt_driver_lpmayos.cpp.o
-.PHONY : src/nxt_driver_lpmayos.o
+src/nxt_driver.o: src/nxt_driver.cpp.o
+.PHONY : src/nxt_driver.o
 
 # target to build an object file
-src/nxt_driver_lpmayos.cpp.o:
-	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.o
-.PHONY : src/nxt_driver_lpmayos.cpp.o
+src/nxt_driver.cpp.o:
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.o
+.PHONY : src/nxt_driver.cpp.o
 
-src/nxt_driver_lpmayos.i: src/nxt_driver_lpmayos.cpp.i
-.PHONY : src/nxt_driver_lpmayos.i
+src/nxt_driver.i: src/nxt_driver.cpp.i
+.PHONY : src/nxt_driver.i
 
 # target to preprocess a source file
-src/nxt_driver_lpmayos.cpp.i:
-	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.i
-.PHONY : src/nxt_driver_lpmayos.cpp.i
+src/nxt_driver.cpp.i:
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.i
+.PHONY : src/nxt_driver.cpp.i
 
-src/nxt_driver_lpmayos.s: src/nxt_driver_lpmayos.cpp.s
-.PHONY : src/nxt_driver_lpmayos.s
+src/nxt_driver.s: src/nxt_driver.cpp.s
+.PHONY : src/nxt_driver.s
 
 # target to generate assembly for a file
-src/nxt_driver_lpmayos.cpp.s:
-	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver_lpmayos.cpp.s
-.PHONY : src/nxt_driver_lpmayos.cpp.s
+src/nxt_driver.cpp.s:
+	cd /home/upf/code/catkin_ws/build && $(MAKE) -f lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/build.make lpmayos_ros_webots_epuck_nxt_differential_robot/CMakeFiles/nxt_driver_lpmayos.dir/src/nxt_driver.cpp.s
+.PHONY : src/nxt_driver.cpp.s
 
 src/nxt_interface.o: src/nxt_interface.cpp.o
 .PHONY : src/nxt_interface.o
@@ -390,6 +418,8 @@ help:
 	@echo "... _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rencoder"
 	@echo "... _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rmotor"
 	@echo "... _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rrobot"
+	@echo "... _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_Rsonar"
+	@echo "... _lpmayos_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_RsonarStatus"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
@@ -405,9 +435,9 @@ help:
 	@echo "... nxt_driver_lpmayos"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... src/nxt_driver_lpmayos.o"
-	@echo "... src/nxt_driver_lpmayos.i"
-	@echo "... src/nxt_driver_lpmayos.s"
+	@echo "... src/nxt_driver.o"
+	@echo "... src/nxt_driver.i"
+	@echo "... src/nxt_driver.s"
 	@echo "... src/nxt_interface.o"
 	@echo "... src/nxt_interface.i"
 	@echo "... src/nxt_interface.s"
