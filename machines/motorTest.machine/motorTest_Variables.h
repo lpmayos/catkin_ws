@@ -11,7 +11,7 @@ ros::ServiceClient	client;	///<
 bool	objectDetected;	///<
 ros_webots_epuck_nxt_differential_robot::RsonarStatus	srv2;	///<
 ros::ServiceClient	client2;	///<
-int	Distance;	///<
+int	distanceValue;	///<
 ros_webots_epuck_nxt_differential_robot::RlightStatus	srv3;	///<
 ros::ServiceClient	client3;	///<
 bool	floorMissing;	///<

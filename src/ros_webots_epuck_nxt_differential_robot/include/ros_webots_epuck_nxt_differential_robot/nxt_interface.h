@@ -18,8 +18,6 @@ public:
     ///< constructor
     NXT_interface();
 
-    std::string banner() { return std::string("(c) Vlad Estivill_Castro, demo subscriber R@D@-NXT ROS driver");}
-
     void run(int argc, char **argv);
 
     /// call-back method robot
@@ -45,9 +43,7 @@ private:
     r2d2::Sensor* sensor_right;
     r2d2::Sensor* sensor_sonar;
     r2d2::Sensor* sensor_light;
-    bool status_sensor_left; 
-    bool status_sensor_right;
-
     r2d2::Motor* motor_right; 
     r2d2::Motor* motor_left;
+    bool simulation_mode = false;
 };

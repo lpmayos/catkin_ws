@@ -270,10 +270,6 @@ ros_webots_epuck_nxt_differential_robot/RsonarStatus.h
 ros_webots_epuck_nxt_differential_robot/RlightStatus.h
 /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/include/ros_webots_epuck_nxt_differential_robot/ros_webots_epuck_nxt_differential_robot/RlightStatus.h
 
-/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/src/nxt_driver.cpp
-ros_webots_epuck_nxt_differential_robot/nxt_interface.h
-/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/src/ros_webots_epuck_nxt_differential_robot/nxt_interface.h
-
 /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/src/nxt_interface.cpp
 ros_webots_epuck_nxt_differential_robot/nxt_interface.h
 /home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/src/ros_webots_epuck_nxt_differential_robot/nxt_interface.h
