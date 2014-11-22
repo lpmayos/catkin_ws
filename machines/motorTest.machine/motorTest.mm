@@ -1,7 +1,7 @@
 //
-// motorTest.mm
+//motorTest.mm
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
 #include "motorTest_Includes.h"
 #include "motorTest.h"
@@ -16,7 +16,6 @@
 
 using namespace FSM;
 using namespace CLM;
-
 extern "C"
 {
 	motorTest *CLM_Create_motorTest(int mid, const char *name)
@@ -27,13 +26,13 @@ extern "C"
 
 motorTest::motorTest(int mid, const char *name): CLMachine(mid, name)
 {
-	_states[0] = new FSMmotorTest::State::INITIAL;
-	_states[1] = new FSMmotorTest::State::MOTOR_ON;
-	_states[2] = new FSMmotorTest::State::END;
-	_states[3] = new FSMmotorTest::State::TEST;
-	_states[4] = new FSMmotorTest::State::BUTTON_ON;
-	_states[5] = new FSMmotorTest::State::MOTORS_BACK;
-	_states[6] = new FSMmotorTest::State::SPIN;
+	_states[0]  = new FSMmotorTest::State:: INITIAL;
+	_states[1]  = new FSMmotorTest::State:: MOTOR_ON;
+	_states[2]  = new FSMmotorTest::State:: END;
+	_states[3]  = new FSMmotorTest::State:: TEST;
+	_states[4]  = new FSMmotorTest::State:: BUTTON_ON;
+	_states[5]  = new FSMmotorTest::State:: MOTORS_BACK;
+	_states[6]  = new FSMmotorTest::State:: SPIN;
 
 	setInitialState(_states[0]);            // set initial state
 }

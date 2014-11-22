@@ -4,3 +4,4 @@ msg.rightMotor.power=0;
 msg.leftButtonSwitch.on=true;
 msg.rightButtonSwitch.on=true;
 robot_pub.publish(msg);
+ROS_INFO("BUTTON ON");

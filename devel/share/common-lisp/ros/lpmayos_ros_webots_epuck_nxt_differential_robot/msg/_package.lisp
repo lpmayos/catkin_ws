@@ -5,9 +5,13 @@
    "RBUTTON"
    "<RMOTOR>"
    "RMOTOR"
+   "<RLIGHT>"
+   "RLIGHT"
    "<RROBOT>"
    "RROBOT"
    "<RENCODER>"
    "RENCODER"
+   "<RSONAR>"
+   "RSONAR"
   ))
 

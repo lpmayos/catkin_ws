@@ -73,7 +73,7 @@ template<>
 struct MD5Sum< ::lpmayos_ros_webots_epuck_nxt_differential_robot::RbuttonStatus > {
   static const char* value()
   {
-    return "e9084cbdc2bffe2899fcce39fcb32066";
+    return "3fcbc751b1d12b64a9eafc04beea4662";
   }
 
   static const char* value(const ::lpmayos_ros_webots_epuck_nxt_differential_robot::RbuttonStatus&) { return value(); }

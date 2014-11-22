@@ -1,1 +1,2 @@
-!buttonPushed
+!buttonPushed && !objectDetected && !floorMissing
+

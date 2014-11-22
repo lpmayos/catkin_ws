@@ -42,7 +42,11 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_webots_epuck_nxt_differential_robot/srv" TYPE FILE FILES "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.srv")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_webots_epuck_nxt_differential_robot/srv" TYPE FILE FILES
+    "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.srv"
+    "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.srv"
+    "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RlightStatus.srv"
+    )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

@@ -1,12 +1,12 @@
 //
-// State_MOTOR_ON.mm
+//State_MOTOR_ON.mm
 //
-// Automatically created through MiCASE -- do not change manually!
+//Automatically created through MiEditCLFSM -- do not change manually!
 //
 #include "motorTest_Includes.h"
 #include "motorTest.h"
-#include "State_MOTOR_ON.h"
 
+#include "State_MOTOR_ON.h"
 #include "State_MOTOR_ON_Includes.h"
 
 using namespace FSM;
@@ -14,10 +14,9 @@ using namespace CLM;
 using namespace FSMmotorTest;
 using namespace State;
 
-MOTOR_ON::MOTOR_ON(const char *name): CLState(name, *new MOTOR_ON::OnEntry, *new MOTOR_ON::OnExit, *new MOTOR_ON::Internal)
+MOTOR_ON::MOTOR_ON(const char *name):CLState(name, *new MOTOR_ON::OnEntry,*new MOTOR_ON::OnExit, *new MOTOR_ON::Internal)
 {
-	_transitions[0] = new Transition_0();
-	_transitions[1] = new Transition_1();
+	_transitions[0] = new Transition_0();	_transitions[1] = new Transition_1();
 }
 
 MOTOR_ON::~MOTOR_ON()
@@ -26,8 +25,6 @@ MOTOR_ON::~MOTOR_ON()
 	delete &onExitAction();
 	delete &internalAction();
 
-	delete _transitions[0];
-	delete _transitions[1];
 }
 
 void MOTOR_ON::OnEntry::perform(CLMachine *_machine, CLState *_state) const
@@ -58,10 +55,9 @@ bool MOTOR_ON::Transition_0::check(CLMachine *_machine, CLState *_state) const
 
 	return
 	(
-#		include "State_MOTOR_ON_Transition_0.expr"
+#			include "State_MOTOR_ON_Transition_0.expr"
 	);
 }
-
 bool MOTOR_ON::Transition_1::check(CLMachine *_machine, CLState *_state) const
 {
 #	include "motorTest_VarRefs.mm"
@@ -69,6 +65,8 @@ bool MOTOR_ON::Transition_1::check(CLMachine *_machine, CLState *_state) const
 
 	return
 	(
-#		include "State_MOTOR_ON_Transition_1.expr"
+#			include "State_MOTOR_ON_Transition_1.expr"
 	);
 }
+
+

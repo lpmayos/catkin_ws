@@ -3,4 +3,8 @@
           LEFT_PRESSED
           RIGHT_PRESSED-VAL
           RIGHT_PRESSED
+          SONAR-VAL
+          SONAR
+          LIGHT-VAL
+          LIGHT
 ))

@@ -58,11 +58,15 @@ struct RbuttonStatusResponse_
 
   RbuttonStatusResponse_()
     : left_pressed(false)
-    , right_pressed(false)  {
+    , right_pressed(false)
+    , sonar(0)
+    , light(0)  {
     }
   RbuttonStatusResponse_(const ContainerAllocator& _alloc)
     : left_pressed(false)
-    , right_pressed(false)  {
+    , right_pressed(false)
+    , sonar(0)
+    , light(0)  {
     }
 
 
@@ -72,6 +76,12 @@ struct RbuttonStatusResponse_
 
    typedef uint8_t _right_pressed_type;
   _right_pressed_type right_pressed;
+
+   typedef uint32_t _sonar_type;
+  _sonar_type sonar;
+
+   typedef uint32_t _light_type;
+  _light_type light;
 
 
 
@@ -150,12 +160,12 @@ struct MD5Sum< ::lpmayos_ros_webots_epuck_nxt_differential_robot::RbuttonStatusR
 {
   static const char* value()
   {
-    return "e9084cbdc2bffe2899fcce39fcb32066";
+    return "3fcbc751b1d12b64a9eafc04beea4662";
   }
 
   static const char* value(const ::lpmayos_ros_webots_epuck_nxt_differential_robot::RbuttonStatusResponse_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xe9084cbdc2bffe28ULL;
-  static const uint64_t static_value2 = 0x99fcce39fcb32066ULL;
+  static const uint64_t static_value1 = 0x3fcbc751b1d12b64ULL;
+  static const uint64_t static_value2 = 0xa9eafc04beea4662ULL;
 };
 
 template<class ContainerAllocator>
@@ -176,6 +186,8 @@ struct Definition< ::lpmayos_ros_webots_epuck_nxt_differential_robot::RbuttonSta
   {
     return "bool left_pressed\n\
 bool right_pressed\n\
+uint32 sonar\n\
+uint32 light\n\
 \n\
 ";
   }
@@ -197,6 +209,8 @@ namespace serialization
     {
       stream.next(m.left_pressed);
       stream.next(m.right_pressed);
+      stream.next(m.sonar);
+      stream.next(m.light);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER;
@@ -219,6 +233,10 @@ struct Printer< ::lpmayos_ros_webots_epuck_nxt_differential_robot::RbuttonStatus
     Printer<uint8_t>::stream(s, indent + "  ", v.left_pressed);
     s << indent << "right_pressed: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.right_pressed);
+    s << indent << "sonar: ";
+    Printer<uint32_t>::stream(s, indent + "  ", v.sonar);
+    s << indent << "light: ";
+    Printer<uint32_t>::stream(s, indent + "  ", v.light);
   }
 };
 

@@ -4,7 +4,9 @@ FILE(REMOVE_RECURSE
   "/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rrobot.h"
   "/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rencoder.h"
   "/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/Rbutton.h"
+  "/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RsonarStatus.h"
   "/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RbuttonStatus.h"
+  "/home/upf/code/catkin_ws/devel/include/ros_webots_epuck_nxt_differential_robot/RlightStatus.h"
 )
 
 # Per-language clean rules from dependency scanning.

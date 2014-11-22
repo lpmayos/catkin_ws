@@ -1,2 +1,0 @@
-Header Rlight
-bool on

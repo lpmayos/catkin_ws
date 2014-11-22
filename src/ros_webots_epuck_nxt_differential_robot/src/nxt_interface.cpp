@@ -71,14 +71,14 @@
 NXT_interface::NXT_interface()
     { banner();
 
-	r2d2::USBBrickManager usbm;
+		r2d2::USBBrickManager usbm;
 
-	brick = usbm.list()->at(0);
+		brick = usbm.list()->at(0);
 	
         nxt = brick->configure(r2d2::SensorType::TOUCH_SENSOR,
                                         r2d2::SensorType::TOUCH_SENSOR,
-                                        r2d2::SensorType::NULL_SENSOR,
-                                        r2d2::SensorType::NULL_SENSOR,
+                                        r2d2::SensorType::SONAR_SENSOR,
+                                        r2d2::SensorType::ACTIVE_LIGHT_SENSOR,
                                         r2d2::MotorType::STANDARD_MOTOR,
                                         r2d2::MotorType::STANDARD_MOTOR,
                                         r2d2::MotorType::STANDARD_MOTOR);
@@ -86,12 +86,14 @@ NXT_interface::NXT_interface()
 		/* check the connections of the NXT you re using */
         	sensor_right = nxt->sensorPort(r2d2::SensorPort::IN_1);
         	sensor_left = nxt->sensorPort(r2d2::SensorPort::IN_2);
+        	sensor_sonar = nxt->sensorPort(r2d2::SensorPort::IN_3);
+        	sensor_light = nxt->sensorPort(r2d2::SensorPort::IN_4);
         	motor_right = nxt->motorPort(r2d2::MotorPort::OUT_B);
         	motor_left = nxt->motorPort(r2d2::MotorPort::OUT_C);
 		// initially sensors are off
-		status_sensor_left = false;
-		status_sensor_right = false;
-	}
+			status_sensor_left = false;
+			status_sensor_right = false;
+		}
     }
 
 void NXT_interface ::  run(int argc, char **argv)
@@ -103,7 +105,11 @@ void NXT_interface ::  run(int argc, char **argv)
                 ros::Subscriber subRobot = n.subscribe("robot", 1000, & NXT_interface::robotCallback,this);
 
                 ros::ServiceServer serviceStatusButton = n.advertiseService("buttonstatus",  & NXT_interface::value_buttonCallback,this);
-		ROS_INFO("Service ready");
+				ROS_INFO("Service ready Button");
+                ros::ServiceServer serviceStatusSonar = n.advertiseService("sonarstatus",  & NXT_interface::value_sonarCallback,this);
+				ROS_INFO("Service ready Sonar");
+				ros::ServiceServer serviceStatusLight = n.advertiseService("lightstatus",  & NXT_interface::value_lightCallback,this);
+				ROS_INFO("Service ready Light");
                 ros::spin();
 
 		std::cerr<< "This EXITING sometimes does not happen when roscore goes down" << std::endl;
@@ -115,6 +121,7 @@ bool NXT_interface :: value_buttonCallback(
              ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Request & req,
              ros_webots_epuck_nxt_differential_robot::RbuttonStatus::Response& res)
 {
+	ROS_INFO("Dins de buttonCallback");
 	if (status_sensor_right)
 	{ res.right_pressed=sensor_right->getValue();
 	}
@@ -132,6 +139,23 @@ bool NXT_interface :: value_buttonCallback(
 	{ 
 		return true;
 	}
+}
+
+
+        /// call-back method SONAR status/value
+bool NXT_interface :: value_sonarCallback(
+             ros_webots_epuck_nxt_differential_robot::RsonarStatus::Request & req,
+             ros_webots_epuck_nxt_differential_robot::RsonarStatus::Response& res)
+{
+	res.distance = sensor_sonar->getValue();
+}
+
+        /// call-back method Light status/value
+bool NXT_interface :: value_lightCallback(
+             ros_webots_epuck_nxt_differential_robot::RlightStatus::Request & req,
+             ros_webots_epuck_nxt_differential_robot::RlightStatus::Response& res)
+{
+	res.light = sensor_light->getValue();
 }
 
         // call-back method robot_control

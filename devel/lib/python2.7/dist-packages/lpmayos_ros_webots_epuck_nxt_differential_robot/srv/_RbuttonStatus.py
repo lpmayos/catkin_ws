@@ -91,16 +91,18 @@ import struct
 
 
 class RbuttonStatusResponse(genpy.Message):
-  _md5sum = "e9084cbdc2bffe2899fcce39fcb32066"
+  _md5sum = "3fcbc751b1d12b64a9eafc04beea4662"
   _type = "lpmayos_ros_webots_epuck_nxt_differential_robot/RbuttonStatusResponse"
   _has_header = False #flag to mark the presence of a Header object
   _full_text = """bool left_pressed
 bool right_pressed
+uint32 sonar
+uint32 light
 
 
 """
-  __slots__ = ['left_pressed','right_pressed']
-  _slot_types = ['bool','bool']
+  __slots__ = ['left_pressed','right_pressed','sonar','light']
+  _slot_types = ['bool','bool','uint32','uint32']
 
   def __init__(self, *args, **kwds):
     """
@@ -110,7 +112,7 @@ bool right_pressed
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       left_pressed,right_pressed
+       left_pressed,right_pressed,sonar,light
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -123,9 +125,15 @@ bool right_pressed
         self.left_pressed = False
       if self.right_pressed is None:
         self.right_pressed = False
+      if self.sonar is None:
+        self.sonar = 0
+      if self.light is None:
+        self.light = 0
     else:
       self.left_pressed = False
       self.right_pressed = False
+      self.sonar = 0
+      self.light = 0
 
   def _get_types(self):
     """
@@ -140,7 +148,7 @@ bool right_pressed
     """
     try:
       _x = self
-      buff.write(_struct_2B.pack(_x.left_pressed, _x.right_pressed))
+      buff.write(_struct_2B2I.pack(_x.left_pressed, _x.right_pressed, _x.sonar, _x.light))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(_x))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(_x))))
 
@@ -153,8 +161,8 @@ bool right_pressed
       end = 0
       _x = self
       start = end
-      end += 2
-      (_x.left_pressed, _x.right_pressed,) = _struct_2B.unpack(str[start:end])
+      end += 10
+      (_x.left_pressed, _x.right_pressed, _x.sonar, _x.light,) = _struct_2B2I.unpack(str[start:end])
       self.left_pressed = bool(self.left_pressed)
       self.right_pressed = bool(self.right_pressed)
       return self
@@ -170,7 +178,7 @@ bool right_pressed
     """
     try:
       _x = self
-      buff.write(_struct_2B.pack(_x.left_pressed, _x.right_pressed))
+      buff.write(_struct_2B2I.pack(_x.left_pressed, _x.right_pressed, _x.sonar, _x.light))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(_x))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(_x))))
 
@@ -184,8 +192,8 @@ bool right_pressed
       end = 0
       _x = self
       start = end
-      end += 2
-      (_x.left_pressed, _x.right_pressed,) = _struct_2B.unpack(str[start:end])
+      end += 10
+      (_x.left_pressed, _x.right_pressed, _x.sonar, _x.light,) = _struct_2B2I.unpack(str[start:end])
       self.left_pressed = bool(self.left_pressed)
       self.right_pressed = bool(self.right_pressed)
       return self
@@ -193,9 +201,9 @@ bool right_pressed
       raise genpy.DeserializationError(e) #most likely buffer underfill
 
 _struct_I = genpy.struct_I
-_struct_2B = struct.Struct("<2B")
+_struct_2B2I = struct.Struct("<2B2I")
 class RbuttonStatus(object):
   _type          = 'lpmayos_ros_webots_epuck_nxt_differential_robot/RbuttonStatus'
-  _md5sum = 'e9084cbdc2bffe2899fcce39fcb32066'
+  _md5sum = '3fcbc751b1d12b64a9eafc04beea4662'
   _request_class  = RbuttonStatusRequest
   _response_class = RbuttonStatusResponse
