@@ -74,6 +74,7 @@ Rmotor.msg
 Rbutton.msg
 Rencoder.msg
 Rrobot.msg
+Rsimulation.msg
 )
 
 ## Generate services in the 'srv' folder

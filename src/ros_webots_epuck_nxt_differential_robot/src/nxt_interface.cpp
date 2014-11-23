@@ -26,6 +26,11 @@ NXT_interface::NXT_interface() {
     } catch(const std::exception&) {
         simulation_mode = true;
         ROS_INFO("No nxt Robot detected --> SIMULATION MODE ON");
+        ros::NodeHandle* n = new ros::NodeHandle();
+        ros::Publisher simulation_pub = n->advertise<ros_webots_epuck_nxt_differential_robot::Rsimulation>("simulation", 1000);
+        // vull algo que desde command line pugui fer:
+        // rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]'
+        // rostopic pub [topic] [msg_type] [args]
     }
 }
 

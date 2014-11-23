@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "ros_webots_epuck_nxt_differential_robot: 4 messages, 3 services")
+message(STATUS "ros_webots_epuck_nxt_differential_robot: 5 messages, 3 services")
 
 set(MSG_I_FLAGS "-Iros_webots_epuck_nxt_differential_robot:/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
 
@@ -17,7 +17,7 @@ add_custom_target(ros_webots_epuck_nxt_differential_robot_generate_messages ALL)
 
 get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg" NAME_WE)
 add_custom_target(_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ros_webots_epuck_nxt_differential_robot" "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg" "ros_webots_epuck_nxt_differential_robot/Rmotor:ros_webots_epuck_nxt_differential_robot/Rbutton:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ros_webots_epuck_nxt_differential_robot" "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg" "ros_webots_epuck_nxt_differential_robot/Rmotor:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/srv/RlightStatus.srv" NAME_WE)
@@ -50,6 +50,11 @@ add_custom_target(_ros_webots_epuck_nxt_differential_robot_generate_messages_che
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ros_webots_epuck_nxt_differential_robot" "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg" "std_msgs/Header"
 )
 
+get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg" NAME_WE)
+add_custom_target(_ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ros_webots_epuck_nxt_differential_robot" "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg" "std_msgs/Header"
+)
+
 #
 #  langs = gencpp;genlisp;genpy
 #
@@ -65,7 +70,7 @@ _generate_msg_cpp(ros_webots_epuck_nxt_differential_robot
 _generate_msg_cpp(ros_webots_epuck_nxt_differential_robot
   "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg"
   "${MSG_I_FLAGS}"
-  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg;/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
 )
 _generate_msg_cpp(ros_webots_epuck_nxt_differential_robot
@@ -76,6 +81,12 @@ _generate_msg_cpp(ros_webots_epuck_nxt_differential_robot
 )
 _generate_msg_cpp(ros_webots_epuck_nxt_differential_robot
   "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
+)
+_generate_msg_cpp(ros_webots_epuck_nxt_differential_robot
+  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
@@ -127,6 +138,8 @@ get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_
 add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_cpp _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg" NAME_WE)
 add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_cpp _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg" NAME_WE)
+add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_cpp _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(ros_webots_epuck_nxt_differential_robot_gencpp)
@@ -146,7 +159,7 @@ _generate_msg_lisp(ros_webots_epuck_nxt_differential_robot
 _generate_msg_lisp(ros_webots_epuck_nxt_differential_robot
   "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg"
   "${MSG_I_FLAGS}"
-  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg;/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
 )
 _generate_msg_lisp(ros_webots_epuck_nxt_differential_robot
@@ -157,6 +170,12 @@ _generate_msg_lisp(ros_webots_epuck_nxt_differential_robot
 )
 _generate_msg_lisp(ros_webots_epuck_nxt_differential_robot
   "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
+)
+_generate_msg_lisp(ros_webots_epuck_nxt_differential_robot
+  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
@@ -208,6 +227,8 @@ get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_
 add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_lisp _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg" NAME_WE)
 add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_lisp _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg" NAME_WE)
+add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_lisp _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(ros_webots_epuck_nxt_differential_robot_genlisp)
@@ -227,7 +248,7 @@ _generate_msg_py(ros_webots_epuck_nxt_differential_robot
 _generate_msg_py(ros_webots_epuck_nxt_differential_robot
   "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg"
   "${MSG_I_FLAGS}"
-  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg;/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
 )
 _generate_msg_py(ros_webots_epuck_nxt_differential_robot
@@ -238,6 +259,12 @@ _generate_msg_py(ros_webots_epuck_nxt_differential_robot
 )
 _generate_msg_py(ros_webots_epuck_nxt_differential_robot
   "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
+)
+_generate_msg_py(ros_webots_epuck_nxt_differential_robot
+  "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_webots_epuck_nxt_differential_robot
@@ -288,6 +315,8 @@ add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_py _r
 get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rmotor.msg" NAME_WE)
 add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_py _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg" NAME_WE)
+add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_py _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg" NAME_WE)
 add_dependencies(ros_webots_epuck_nxt_differential_robot_generate_messages_py _ros_webots_epuck_nxt_differential_robot_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

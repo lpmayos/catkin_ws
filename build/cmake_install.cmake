@@ -130,6 +130,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/upf/code/catkin_ws/build/clfsm/cmake_install.cmake")
   INCLUDE("/home/upf/code/catkin_ws/build/RosPingPong/cmake_install.cmake")
   INCLUDE("/home/upf/code/catkin_ws/build/r2d2mipal/cmake_install.cmake")
+  INCLUDE("/home/upf/code/catkin_ws/build/ros_lab2task2a/cmake_install.cmake")
   INCLUDE("/home/upf/code/catkin_ws/build/ros_webots_epuck_nxt_differential_robot/cmake_install.cmake")
   INCLUDE("/home/upf/code/catkin_ws/build/turtle_sensor_poster/cmake_install.cmake")
 

@@ -13,4 +13,6 @@
     (:file "_package_Rrobot" :depends-on ("_package"))
     (:file "Rencoder" :depends-on ("_package_Rencoder"))
     (:file "_package_Rencoder" :depends-on ("_package"))
+    (:file "Rsimulation" :depends-on ("_package_Rsimulation"))
+    (:file "_package_Rsimulation" :depends-on ("_package"))
   ))

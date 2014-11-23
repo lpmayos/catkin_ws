@@ -38,6 +38,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.msg"
     "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.msg"
     "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.msg"
+    "/home/upf/code/catkin_ws/src/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

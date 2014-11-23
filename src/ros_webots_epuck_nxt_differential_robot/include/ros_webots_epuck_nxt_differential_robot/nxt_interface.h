@@ -5,6 +5,7 @@
 
 #include "ros/ros.h"
 #include "ros_webots_epuck_nxt_differential_robot/Rmotor.h"
+#include "ros_webots_epuck_nxt_differential_robot/Rsimulation.h"
 #include "ros_webots_epuck_nxt_differential_robot/Rbutton.h"
 #include "ros_webots_epuck_nxt_differential_robot/Rsonar.h" 
 #include "ros_webots_epuck_nxt_differential_robot/Rrobot.h"

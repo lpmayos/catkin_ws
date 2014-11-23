@@ -4,6 +4,7 @@ FILE(REMOVE_RECURSE
   "/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rrobot.lisp"
   "/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rencoder.lisp"
   "/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rbutton.lisp"
+  "/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/msg/Rsimulation.lisp"
   "/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RsonarStatus.lisp"
   "/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RbuttonStatus.lisp"
   "/home/upf/code/catkin_ws/devel/share/common-lisp/ros/ros_webots_epuck_nxt_differential_robot/srv/RlightStatus.lisp"

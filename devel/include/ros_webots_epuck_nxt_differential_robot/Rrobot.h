@@ -51,8 +51,6 @@
 #include <std_msgs/Header.h>
 #include <ros_webots_epuck_nxt_differential_robot/Rmotor.h>
 #include <ros_webots_epuck_nxt_differential_robot/Rmotor.h>
-#include <ros_webots_epuck_nxt_differential_robot/Rbutton.h>
-#include <ros_webots_epuck_nxt_differential_robot/Rbutton.h>
 
 namespace ros_webots_epuck_nxt_differential_robot
 {
@@ -64,16 +62,12 @@ struct Rrobot_
   Rrobot_()
     : Rrobot()
     , leftMotor()
-    , rightMotor()
-    , leftButtonSwitch()
-    , rightButtonSwitch()  {
+    , rightMotor()  {
     }
   Rrobot_(const ContainerAllocator& _alloc)
     : Rrobot(_alloc)
     , leftMotor(_alloc)
-    , rightMotor(_alloc)
-    , leftButtonSwitch(_alloc)
-    , rightButtonSwitch(_alloc)  {
+    , rightMotor(_alloc)  {
     }
 
 
@@ -86,12 +80,6 @@ struct Rrobot_
 
    typedef  ::ros_webots_epuck_nxt_differential_robot::Rmotor_<ContainerAllocator>  _rightMotor_type;
   _rightMotor_type rightMotor;
-
-   typedef  ::ros_webots_epuck_nxt_differential_robot::Rbutton_<ContainerAllocator>  _leftButtonSwitch_type;
-  _leftButtonSwitch_type leftButtonSwitch;
-
-   typedef  ::ros_webots_epuck_nxt_differential_robot::Rbutton_<ContainerAllocator>  _rightButtonSwitch_type;
-  _rightButtonSwitch_type rightButtonSwitch;
 
 
 
@@ -170,12 +158,12 @@ struct MD5Sum< ::ros_webots_epuck_nxt_differential_robot::Rrobot_<ContainerAlloc
 {
   static const char* value()
   {
-    return "8b886383709d99b19c9aec3796abbb5d";
+    return "b873f2a5e02ba6f92c0c7cf005c8b275";
   }
 
   static const char* value(const ::ros_webots_epuck_nxt_differential_robot::Rrobot_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x8b886383709d99b1ULL;
-  static const uint64_t static_value2 = 0x9c9aec3796abbb5dULL;
+  static const uint64_t static_value1 = 0xb873f2a5e02ba6f9ULL;
+  static const uint64_t static_value2 = 0x2c0c7cf005c8b275ULL;
 };
 
 template<class ContainerAllocator>
@@ -197,8 +185,6 @@ struct Definition< ::ros_webots_epuck_nxt_differential_robot::Rrobot_<ContainerA
     return "Header Rrobot\n\
 ros_webots_epuck_nxt_differential_robot/Rmotor leftMotor\n\
 ros_webots_epuck_nxt_differential_robot/Rmotor rightMotor\n\
-ros_webots_epuck_nxt_differential_robot/Rbutton leftButtonSwitch\n\
-ros_webots_epuck_nxt_differential_robot/Rbutton rightButtonSwitch\n\
 \n\
 ================================================================================\n\
 MSG: std_msgs/Header\n\
@@ -222,11 +208,6 @@ string frame_id\n\
 MSG: ros_webots_epuck_nxt_differential_robot/Rmotor\n\
 Header Rmotor\n\
 uint32 power\n\
-\n\
-================================================================================\n\
-MSG: ros_webots_epuck_nxt_differential_robot/Rbutton\n\
-Header Rbutton\n\
-bool on\n\
 ";
   }
 
@@ -248,8 +229,6 @@ namespace serialization
       stream.next(m.Rrobot);
       stream.next(m.leftMotor);
       stream.next(m.rightMotor);
-      stream.next(m.leftButtonSwitch);
-      stream.next(m.rightButtonSwitch);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER;
@@ -277,12 +256,6 @@ struct Printer< ::ros_webots_epuck_nxt_differential_robot::Rrobot_<ContainerAllo
     s << indent << "rightMotor: ";
     s << std::endl;
     Printer< ::ros_webots_epuck_nxt_differential_robot::Rmotor_<ContainerAllocator> >::stream(s, indent + "  ", v.rightMotor);
-    s << indent << "leftButtonSwitch: ";
-    s << std::endl;
-    Printer< ::ros_webots_epuck_nxt_differential_robot::Rbutton_<ContainerAllocator> >::stream(s, indent + "  ", v.leftButtonSwitch);
-    s << indent << "rightButtonSwitch: ";
-    s << std::endl;
-    Printer< ::ros_webots_epuck_nxt_differential_robot::Rbutton_<ContainerAllocator> >::stream(s, indent + "  ", v.rightButtonSwitch);
   }
 };
 
