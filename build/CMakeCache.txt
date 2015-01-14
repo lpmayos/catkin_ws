@@ -385,6 +385,12 @@ r2d2mipal_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libusb-1.0.so;
 r2d2mipal_SOURCE_DIR:STATIC=/home/upf/code/catkin_ws/src/r2d2mipal
 
 //Value Computed by CMake
+ros_lab2task2_BINARY_DIR:STATIC=/home/upf/code/catkin_ws/build/ros_lab2task2
+
+//Value Computed by CMake
+ros_lab2task2_SOURCE_DIR:STATIC=/home/upf/code/catkin_ws/src/ros_lab2task2
+
+//Value Computed by CMake
 ros_lab2task2a_BINARY_DIR:STATIC=/home/upf/code/catkin_ws/build/ros_lab2task2a
 
 //Value Computed by CMake

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ros_lab2task2")
+set(ros_lab2task2_MAINTAINER "vlad  estivill-castro <vestivill@gmail.com>")
+set(ros_lab2task2_DEPRECATED "")
+set(ros_lab2task2_VERSION "0.0.0")
+set(ros_lab2task2_BUILD_DEPENDS "roscpp" "std_msgs" "message_generation" "r2d2mipal")
+set(ros_lab2task2_RUN_DEPENDS "roscpp" "std_msgs" "message_runtime" "r2d2mipal")
+set(ros_lab2task2_BUILDTOOL_DEPENDS "catkin")

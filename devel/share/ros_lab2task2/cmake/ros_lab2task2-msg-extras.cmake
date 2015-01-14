@@ -1,0 +1,2 @@
+set(ros_lab2task2_MESSAGE_FILES "/home/upf/code/catkin_ws/src/ros_lab2task2/msg/Rmotor.msg;/home/upf/code/catkin_ws/src/ros_lab2task2/msg/Rbutton.msg;/home/upf/code/catkin_ws/src/ros_lab2task2/msg/Rencoder.msg;/home/upf/code/catkin_ws/src/ros_lab2task2/msg/Rrobot.msg;/home/upf/code/catkin_ws/src/ros_lab2task2/msg/Rsimulation.msg")
+set(ros_lab2task2_SERVICE_FILES "/home/upf/code/catkin_ws/src/ros_lab2task2/srv/RbuttonStatus.srv;/home/upf/code/catkin_ws/src/ros_lab2task2/srv/RsonarStatus.srv;/home/upf/code/catkin_ws/src/ros_lab2task2/srv/RlightStatus.srv")
